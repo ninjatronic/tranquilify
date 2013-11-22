@@ -4,28 +4,38 @@
     angular
         .module('app.control')
         .controller('app.control.main', [
-            '$scope', '$state',
-            function ($scope, $state) {
+            '$scope', '$state', '$q',
+            function ($scope, $state, $q) {
 
                 $scope.$state = $state;
 
-                function appPath() {
-
-                    var path = window.location.pathname;
-                    return path.substring(0, path.lastIndexOf('/') + 1).replace(/\%20/g, ' ');
-
+                function loadAudio(id) {
+                    var deferred = $q.defer();
+                    LowLatencyAudio.preloadAudio(id, 'media/'+id+'.mp3', 2,
+                        function() {
+                            $scope.$apply(function() {
+                                deferred.resolve(id);
+                            });
+                        }, function() {
+                            $scope.$apply(function() {
+                                deferred.reject();
+                            });
+                        });
+                    return deferred.promise;
                 }
 
-                var media = new Media(appPath() + 'media/ocean.mp3');
+                var loader = loadAudio('ocean');
 
                 $scope.play = function() {
                     $scope.playing = true;
-                    media.play({numberOfLoops: -1});
+                    loader.then(function() {
+                        LowLatencyAudio.loop('ocean');
+                    });
                 };
 
                 $scope.pause = function() {
                     delete $scope.playing;
-                    media.pause();
+                    LowLatencyAudio.stop('ocean');
                 };
 
             }]);

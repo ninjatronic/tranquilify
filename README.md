@@ -2,11 +2,12 @@
 
 ## Development
 
-### Getting Started
-
 ```javascript
 npm install
 bower install
 phonegap local plugin add org.apache.cordova.device
 phonegap local plugin add org.apache.cordova.media
+phonegap local plugin add https://github.com/triceam/LowLatencyAudio
 ```
+
+May need to open the plist once built and include the AudioToolbox library.
