@@ -1,0 +1,51 @@
+html,body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.full-width {
+    width: 100%;
+}
+
+div.full-height {
+    height: 100%;
+}
+
+div.ocean {
+    background-image: url('../img/ocean.jpg');
+    background-size: cover;
+    padding: 22px;
+    padding-top: 44px;
+}
+
+div.overlay {
+    border-radius: 11px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    padding-bottom: 44px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: lighter;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.footer {
+    height: 66px;
+    margin-top: -66px;
+    padding-right: 22px;
+    padding-left: 22px;
+    opacity: 0.5;
+    color: #ffffff;
+}
