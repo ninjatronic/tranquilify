@@ -1,17 +1,17 @@
 <div class="full-width full-height ocean">
     <div class="full overlay" style="height:376px">
         <h1 class="text-center">
-            Ocean Sunset
+            {{sounds[soundIdx].title}}
         </h1>
         <hr />
         <h1 class="text-center">
-            <a ng-show="!playing && !working" ng-click="play()">
+            <a ng-show="!playing && !working" ng-click="play(sounds[soundIdx].id)">
                 <i class="fa fa-play"></i>
             </a>
-            <a ng-show="working" ng-click="pause()">
+            <a ng-show="working">
                 <i class="fa fa-spinner fa-spin"></i>
             </a>
-            <a ng-show="playing && !working" ng-click="pause()">
+            <a ng-show="playing && !working" ng-click="pause(sounds[soundIdx].id)">
                 <i class="fa fa-pause"></i>
             </a>
         </h1>
@@ -25,7 +25,7 @@
 </div>
 <div class="footer text-right">
     <h2>
-        <a href="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fitunes.com%2Fapps%2Ftranquilify&width&layout=standard&action=like&show_faces=true&share=true&height=80&appId=1382653545306440">
+        <a>
             <i class="fa fa-facebook"></i>
         </a>
         <a>

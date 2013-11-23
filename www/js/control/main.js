@@ -4,8 +4,8 @@
     angular
         .module('app.control')
         .controller('app.control.main', [
-            '$scope', '$state', '$q', '$timeout',
-            function ($scope, $state, $q, $timeout) {
+            '$scope', '$state', '$q', '$timeout', '$audio',
+            function ($scope, $state, $q, $timeout, $audio) {
 
                 $scope.$state = $state;
 
@@ -38,10 +38,6 @@
                 var quoteTime = 20000;
                 var quoteTrans = 2000;
 
-                /*
-                    THIS SECTION DEALS WITH PLAYING THE SOUNDS
-                 */
-
                 function quoteLoop() {
                     $timeout(function() {
                         $scope.quoteChanging = true;
@@ -57,85 +53,30 @@
                 }
                 quoteLoop();
 
+                /*
+                    THIS SECTION DEALS WITH PLAYING THE SOUNDS
+                 */
+
                 $scope.sounds = [{
                     id: 'ocean',
                     title: 'Ocean Sunset'
                 }];
+                $scope.soundIdx = 0;
 
-                function loadAudio(id) {
-                    var deferred = $q.defer();
-                    LowLatencyAudio.preloadAudio(id, 'media/'+id+'.mp3', 2,
-                        function() {
-                            $scope.$apply(function() {
-                                deferred.resolve(id);
-                            });
-                        }, function() {
-                            $scope.$apply(function() {
-                                deferred.reject();
-                            });
-                        });
-                    return deferred.promise;
-                }
-
-                function loopAudio(id) {
-                    var deferred = $q.defer();
-                    LowLatencyAudio.loop(id,
-                        function() {
-                            $scope.$apply(function() {
-                                deferred.resolve(id);
-                            });
-                        }, function() {
-                            $scope.$apply(function() {
-                                deferred.reject();
-                            });
-                        });
-                    return deferred.promise;
-                }
-
-                function stopAudio(id) {
-                    var deferred = $q.defer();
-                    LowLatencyAudio.stop(id,
-                        function() {
-                            $scope.$apply(function() {
-                                deferred.resolve(id);
-                            });
-                        }, function() {
-                            $scope.$apply(function() {
-                                deferred.reject();
-                            });
-                        });
-                    return deferred.promise;
-                }
-
-                function unloadAudio(id) {
-                    var deferred = $q.defer();
-                    LowLatencyAudio.unload(id,
-                        function() {
-                            $scope.$apply(function() {
-                                deferred.resolve(id);
-                            });
-                        }, function() {
-                            $scope.$apply(function() {
-                                deferred.reject();
-                            });
-                        });
-                    return deferred.promise;
-                }
-
-                $scope.play = function() {
+                $scope.play = function(id) {
                     $scope.working = true;
-                    loadAudio('ocean').then(function() {
-                        loopAudio('ocean').then(function() {
+                    $audio.load(id).then(function() {
+                        $audio.loop(id).then(function() {
                             $scope.playing = true;
                             $scope.working = false;
                         });
                     });
                 };
 
-                $scope.pause = function() {
+                $scope.pause = function(id) {
                     $scope.working = true;
-                    stopAudio('ocean').then(function() {
-                        unloadAudio('ocean').then(function() {
+                    $audio.stop(id).then(function() {
+                        $audio.unload(id).then(function() {
                             $scope.playing = false;
                             $scope.working = false;
                         });
