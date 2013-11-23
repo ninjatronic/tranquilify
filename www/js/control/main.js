@@ -4,10 +4,18 @@
     angular
         .module('app.control')
         .controller('app.control.main', [
-            '$scope', '$state', '$q', '$timeout', '$audio',
-            function ($scope, $state, $q, $timeout, $audio) {
+            '$scope', '$state', '$timeout', '$audio', '$window',
+            function ($scope, $state, $timeout, $audio, $window) {
 
                 $scope.$state = $state;
+
+                /*
+                    THIS SECTION DISPLAYS MESSAGES ON THE FIRST RUN
+                 */
+                if($window.localStorage.getItem('firstrun')==null){
+                    $window.localStorage.setItem('firstrun','1')
+                    $window.alert('Swipe left and right to browse through sounds');
+                }
 
                 /*
                     THIS SECTION DEALS WITH THE WORK STATE OF THE APP
