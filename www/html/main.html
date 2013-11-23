@@ -1,10 +1,14 @@
-<div class="full-width full-height ocean">
+<div class="full-width full-height background" ng-class="sounds[soundIdx].id">
     <div class="full overlay" style="height:376px">
-        <h1 class="text-center">
-            {{sounds[soundIdx].title}}
-        </h1>
+        <div style="height:59px">
+            <h1 class="text-center fading" ng-hide="soundChanging">
+                <a ng-click="next()">
+                    {{sounds[soundIdx].title}}
+                </a>
+            </h1>
+        </div>
         <hr />
-        <h1 class="text-center">
+        <h1 class="text-center fading">
             <a ng-show="!playing && !working" ng-click="play(sounds[soundIdx].id)">
                 <i class="fa fa-play"></i>
             </a>
@@ -15,10 +19,10 @@
                 <i class="fa fa-pause"></i>
             </a>
         </h1>
-        <h3 class="text-center quote" ng-hide="quoteChanging">
+        <h3 class="text-center fading" ng-hide="quoteChanging">
             {{quotes[quoteIdx].text}}
         </h3>
-        <h4 class="text-center quote" ng-hide="quoteChanging">
+        <h4 class="text-center fading" ng-hide="quoteChanging">
             {{quotes[quoteIdx].from}}
         </h4>
     </div>

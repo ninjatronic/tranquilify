@@ -32,8 +32,8 @@
                     from: 'Socrates'
                 }];
 
-                $scope.quoteChanging = false;
                 $scope.quoteIdx = 0;
+                $scope.quoteChanging = false;
 
                 var quoteTime = 20000;
                 var quoteTrans = 2000;
@@ -57,11 +57,17 @@
                     THIS SECTION DEALS WITH PLAYING THE SOUNDS
                  */
 
+                var soundTrans = 1000;
+
                 $scope.sounds = [{
                     id: 'ocean',
                     title: 'Ocean Sunset'
+                },{
+                    id: 'rainforest',
+                    title: 'Rainforest'
                 }];
                 $scope.soundIdx = 0;
+                $scope.soundChanging = false;
 
                 $scope.play = function(id) {
                     $scope.working = true;
@@ -81,6 +87,28 @@
                             $scope.working = false;
                         });
                     });
+                };
+
+                $scope.next = function() {
+                    $scope.soundChanging = true;
+                    $timeout(function() {
+                        $scope.soundIdx++;
+                        if($scope.soundIdx === $scope.sounds.length) {
+                            $scope.soundIdx = 0;
+                        }
+                        $scope.soundChanging = false;
+                    }, soundTrans);
+                };
+
+                $scope.previous = function() {
+                    $scope.soundChanging = true;
+                    $timeout(function() {
+                        $scope.soundIdx--;
+                        if($scope.soundIdx === -1) {
+                            $scope.soundIdx = $scope.sounds.length - 1;
+                        }
+                        $scope.soundChanging = false;
+                    }, soundTrans);
                 };
 
             }]);

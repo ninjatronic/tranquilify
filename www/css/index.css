@@ -12,11 +12,20 @@ div.full-height {
     height: 100%;
 }
 
-div.ocean {
-    background-image: url('../img/ocean.jpg');
+div.background {
     background-size: cover;
     padding: 22px;
     padding-top: 44px;
+
+    -webkit-transition: background-image 0.5s ease-in-out;
+}
+
+div.ocean {
+    background-image: url('../img/ocean.jpg');
+}
+
+div.rainforest {
+    background-image: url('../img/rainforest.jpg');
 }
 
 div.overlay {
@@ -50,17 +59,16 @@ div.footer {
     color: #ffffff;
 }
 
-.quote {
+.fading {
     -webkit-transition:all linear 0.5s;
-    transition:all linear 0.5s;
     opacity:1;
 }
 
-.quote.ng-hide {
+.fading.ng-hide {
     opacity:0;
 }
 
-.quote.ng-hide-add,
-.quote.ng-hide-remove {
+.fading.ng-hide-add,
+.fading.ng-hide-remove {
     display:block!important;
 }
