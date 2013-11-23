@@ -1,5 +1,5 @@
 <div class="full-width full-height ocean">
-    <div class="full overlay">
+    <div class="full overlay" style="height:376px">
         <h1 class="text-center">
             Ocean Sunset
         </h1>
@@ -15,11 +15,11 @@
                 <i class="fa fa-pause"></i>
             </a>
         </h1>
-        <h3 class="text-center">
-            In the depth of winter I finally learned that there was in me an invincible summer.
+        <h3 class="text-center quote" ng-hide="quoteChanging">
+            {{quotes[quoteIdx].text}}
         </h3>
-        <h4 class="text-center">
-            Albert Camus
+        <h4 class="text-center quote" ng-hide="quoteChanging">
+            {{quotes[quoteIdx].from}}
         </h4>
     </div>
 </div>

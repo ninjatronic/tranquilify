@@ -49,3 +49,18 @@ div.footer {
     opacity: 0.5;
     color: #ffffff;
 }
+
+.quote {
+    -webkit-transition:all linear 0.5s;
+    transition:all linear 0.5s;
+    opacity:1;
+}
+
+.quote.ng-hide {
+    opacity:0;
+}
+
+.quote.ng-hide-add,
+.quote.ng-hide-remove {
+    display:block!important;
+}

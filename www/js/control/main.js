@@ -4,13 +4,30 @@
     angular
         .module('app.control')
         .controller('app.control.main', [
-            '$scope', '$state', '$q',
-            function ($scope, $state, $q) {
+            '$scope', '$state', '$q', '$timeout',
+            function ($scope, $state, $q, $timeout) {
+
+                $scope.quotes = [{
+                    text: 'In the depth of winter I finally learned that there was in me an invincible summer.',
+                    from: 'Albert Camus'
+                },{
+                    text: 'Keep your face to the sunshine and you cannot see a shadow.',
+                    from: 'Helen Keller'
+                },{
+                    text: 'He is richest who is content with the least, for content is the wealth of nature.',
+                    from: 'Socrates'
+                }];
 
                 $scope.$state = $state;
 
                 $scope.working = false;
                 $scope.playing = false;
+
+                $scope.quoteChanging = false;
+                $scope.quoteIdx = 0;
+
+                var quoteTime = 20000;
+                var quoteTrans = 2000;
 
                 function loadAudio(id) {
                     var deferred = $q.defer();
@@ -76,6 +93,21 @@
                         $scope.working = false;
                     });
                 };
+
+                function quoteLoop() {
+                    $timeout(function() {
+                        $scope.quoteChanging = true;
+                        $timeout(function() {
+                            $scope.quoteIdx++;
+                            if($scope.quoteIdx === $scope.quotes.length) {
+                                $scope.quoteIdx = 0;
+                            }
+                            $scope.quoteChanging = false;
+                            quoteLoop();
+                        }, quoteTrans);
+                    }, quoteTime);
+                }
+                quoteLoop();
 
             }]);
 })();
