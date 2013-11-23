@@ -7,5 +7,9 @@
     <author email="info@ninjatronic.com" href="http://ninjatronic.com">
         Ninjatronic
     </author>
+
     <content src="index.html" />
+
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="false" />
 </widget>
