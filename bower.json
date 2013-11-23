@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "dependencies": {
         "angular": ">= v1.2.2",
+        "angular-touch": ">= 1.2.2",
         "angular-animate": ">= 1.2.2",
         "angular-cookies": ">= v1.2.2",
         "angular-resource": ">= v1.2.2",
@@ -14,6 +15,7 @@
     },
     "devDependencies": {
         "angular": ">= v1.2.2",
+        "angular-touch": ">= 1.2.2",
         "angular-animate": ">= 1.2.2",
         "angular-cookies": ">= v1.2.2",
         "angular-resource": ">= v1.2.2",

@@ -57,34 +57,39 @@
                     THIS SECTION DEALS WITH PLAYING THE SOUNDS
                  */
 
-                var soundTrans = 1000;
+                var soundTrans = 300;
 
                 $scope.sounds = [{
                     id: 'ocean',
-                    title: 'Ocean Sunset'
+                    title: 'Ocean Sunset',
+                    working: false,
+                    playing: false
                 },{
                     id: 'rainforest',
-                    title: 'Rainforest'
+                    title: 'Rainforest',
+                    working: false,
+                    playing: false
                 }];
                 $scope.soundIdx = 0;
                 $scope.soundChanging = false;
 
-                $scope.play = function(id) {
-                    $scope.working = true;
-                    $audio.load(id).then(function() {
-                        $audio.loop(id).then(function() {
-                            $scope.playing = true;
-                            $scope.working = false;
+                $scope.play = function(index) {
+                    console.log(index);
+                    $scope.sounds[index].working = true;
+                    $audio.load($scope.sounds[index].id).then(function() {
+                        $audio.loop($scope.sounds[index].id).then(function() {
+                            $scope.sounds[index].playing = true;
+                            $scope.sounds[index].working = false;
                         });
                     });
                 };
 
-                $scope.pause = function(id) {
-                    $scope.working = true;
-                    $audio.stop(id).then(function() {
-                        $audio.unload(id).then(function() {
-                            $scope.playing = false;
-                            $scope.working = false;
+                $scope.pause = function(index) {
+                    $scope.sounds[index].working = true;
+                    $audio.stop($scope.sounds[index].id).then(function() {
+                        $audio.unload($scope.sounds[index].id).then(function() {
+                            $scope.sounds[index].playing = false;
+                            $scope.sounds[index].working = false;
                         });
                     });
                 };

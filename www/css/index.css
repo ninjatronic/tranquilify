@@ -60,7 +60,7 @@ div.footer {
 }
 
 .fading {
-    -webkit-transition:all linear 0.5s;
+    -webkit-transition:all linear 1.0s;
     opacity:1;
 }
 

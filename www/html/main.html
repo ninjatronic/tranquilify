@@ -1,21 +1,19 @@
-<div class="full-width full-height background" ng-class="sounds[soundIdx].id">
+<div class="full-width full-height background" ng-class="sounds[soundIdx].id" ng-swipe-left="previous()" ng-swipe-right="next()">
     <div class="full overlay" style="height:376px">
         <div style="height:59px">
             <h1 class="text-center fading" ng-hide="soundChanging">
-                <a ng-click="next()">
-                    {{sounds[soundIdx].title}}
-                </a>
+                {{sounds[soundIdx].title}}
             </h1>
         </div>
         <hr />
-        <h1 class="text-center fading">
-            <a ng-show="!playing && !working" ng-click="play(sounds[soundIdx].id)">
+        <h1 class="text-center fading" ng-hide="soundChanging">
+            <a ng-show="!sounds[soundIdx].playing && !sounds[soundIdx].working" ng-click="play(soundIdx)">
                 <i class="fa fa-play"></i>
             </a>
-            <a ng-show="working">
+            <a ng-show="sounds[soundIdx].working">
                 <i class="fa fa-spinner fa-spin"></i>
             </a>
-            <a ng-show="playing && !working" ng-click="pause(sounds[soundIdx].id)">
+            <a ng-show="sounds[soundIdx].playing && !sounds[soundIdx].working" ng-click="pause(soundIdx)">
                 <i class="fa fa-pause"></i>
             </a>
         </h1>
