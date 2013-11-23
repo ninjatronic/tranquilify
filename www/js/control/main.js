@@ -7,6 +7,20 @@
             '$scope', '$state', '$q', '$timeout',
             function ($scope, $state, $q, $timeout) {
 
+                $scope.$state = $state;
+
+                /*
+                    THIS SECTION DEALS WITH THE WORK STATE OF THE APP
+                 */
+
+                $scope.working = false;
+                $scope.playing = false;
+
+
+                /*
+                    THIS SECTION DEALS WITH LOOPING THE QUOTES
+                 */
+
                 $scope.quotes = [{
                     text: 'In the depth of winter I finally learned that there was in me an invincible summer.',
                     from: 'Albert Camus'
@@ -18,16 +32,35 @@
                     from: 'Socrates'
                 }];
 
-                $scope.$state = $state;
-
-                $scope.working = false;
-                $scope.playing = false;
-
                 $scope.quoteChanging = false;
                 $scope.quoteIdx = 0;
 
                 var quoteTime = 20000;
                 var quoteTrans = 2000;
+
+                /*
+                    THIS SECTION DEALS WITH PLAYING THE SOUNDS
+                 */
+
+                function quoteLoop() {
+                    $timeout(function() {
+                        $scope.quoteChanging = true;
+                        $timeout(function() {
+                            $scope.quoteIdx++;
+                            if($scope.quoteIdx === $scope.quotes.length) {
+                                $scope.quoteIdx = 0;
+                            }
+                            $scope.quoteChanging = false;
+                            quoteLoop();
+                        }, quoteTrans);
+                    }, quoteTime);
+                }
+                quoteLoop();
+
+                $scope.sounds = [{
+                    id: 'ocean',
+                    title: 'Ocean Sunset'
+                }];
 
                 function loadAudio(id) {
                     var deferred = $q.defer();
@@ -74,11 +107,24 @@
                     return deferred.promise;
                 }
 
-                var loader = loadAudio('ocean');
+                function unloadAudio(id) {
+                    var deferred = $q.defer();
+                    LowLatencyAudio.unload(id,
+                        function() {
+                            $scope.$apply(function() {
+                                deferred.resolve(id);
+                            });
+                        }, function() {
+                            $scope.$apply(function() {
+                                deferred.reject();
+                            });
+                        });
+                    return deferred.promise;
+                }
 
                 $scope.play = function() {
                     $scope.working = true;
-                    loader.then(function() {
+                    loadAudio('ocean').then(function() {
                         loopAudio('ocean').then(function() {
                             $scope.playing = true;
                             $scope.working = false;
@@ -89,25 +135,12 @@
                 $scope.pause = function() {
                     $scope.working = true;
                     stopAudio('ocean').then(function() {
-                        $scope.playing = false;
-                        $scope.working = false;
+                        unloadAudio('ocean').then(function() {
+                            $scope.playing = false;
+                            $scope.working = false;
+                        });
                     });
                 };
-
-                function quoteLoop() {
-                    $timeout(function() {
-                        $scope.quoteChanging = true;
-                        $timeout(function() {
-                            $scope.quoteIdx++;
-                            if($scope.quoteIdx === $scope.quotes.length) {
-                                $scope.quoteIdx = 0;
-                            }
-                            $scope.quoteChanging = false;
-                            quoteLoop();
-                        }, quoteTrans);
-                    }, quoteTime);
-                }
-                quoteLoop();
 
             }]);
 })();
