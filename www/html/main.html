@@ -5,10 +5,13 @@
         </h1>
         <hr />
         <h1 class="text-center">
-            <a ng-show="!playing" ng-click="play()">
+            <a ng-show="!playing && !working" ng-click="play()">
                 <i class="fa fa-play"></i>
             </a>
-            <a ng-show="playing" ng-click="pause()">
+            <a ng-show="working" ng-click="pause()">
+                <i class="fa fa-spinner fa-spin"></i>
+            </a>
+            <a ng-show="playing && !working" ng-click="pause()">
                 <i class="fa fa-pause"></i>
             </a>
         </h1>
