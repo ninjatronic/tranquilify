@@ -148,6 +148,14 @@
                 console.log(angular.element(document.querySelector('#cover')));
 
                 /*
+                    THIS SECTION OPENS EXTERNAL LINKS
+                 */
+
+                $scope.link = function(url) {
+                    $window.open(url, '_system');
+                }
+
+                /*
                     THIS SECTION REMOVES THE COVER AFTER A REASONABLE PERIOD
                  */
 

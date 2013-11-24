@@ -10,9 +10,12 @@
 
     <content src="index.html" />
 
+    <access origin="*" />
+
     <preference name="DisallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" />
     <preference name="AutoHideSplashScreen" value="false"/>
+    <preference name="stay-in-webview" value="false" />
 
     <feature name="SplashScreen">
         <param name="ios-package" value="CDVSplashScreen" />
