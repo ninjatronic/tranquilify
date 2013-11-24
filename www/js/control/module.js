@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.control', ['app.service', 'ngStorage'])
+        .module('app.control', ['app.service'])
         .config([function () {
         }])
         .run([function () {
