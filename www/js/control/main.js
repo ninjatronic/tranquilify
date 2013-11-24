@@ -145,5 +145,15 @@
                     }, soundTrans);
                 };
 
+                console.log(angular.element(document.querySelector('#cover')));
+
+                /*
+                    THIS SECTION REMOVES THE COVER AFTER A REASONABLE PERIOD
+                 */
+
+                $timeout(function() {
+                    angular.element(document.querySelector('#cover')).remove();
+                }, 100);
+
             }]);
 })();
