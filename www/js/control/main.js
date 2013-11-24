@@ -152,7 +152,7 @@
                  */
 
                 $timeout(function() {
-                    angular.element(document.querySelector('#cover')).remove();
+                    $window.navigator.splashscreen.hide();
                 }, 100);
 
             }]);

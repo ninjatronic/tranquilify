@@ -12,4 +12,9 @@
 
     <preference name="DisallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" />
+    <preference name="AutoHideSplashScreen" value="false"/>
+
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+    </feature>
 </widget>
