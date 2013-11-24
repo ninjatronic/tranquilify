@@ -12,6 +12,7 @@
                 /*
                     THIS SECTION DISPLAYS MESSAGES ON THE FIRST RUN
                  */
+
                 if($window.localStorage.getItem('firstrun')==null){
                     $window.localStorage.setItem('firstrun','1')
                     $window.alert('Swipe left and right to browse through sounds');
@@ -68,13 +69,33 @@
                 var soundTrans = 300;
 
                 $scope.sounds = [{
-                    id: 'ocean',
-                    title: 'Ocean Sunset',
+                    id: 'shore',
+                    title: 'Stony Shore',
                     working: false,
                     playing: false
                 },{
-                    id: 'rainforest',
-                    title: 'Rainforest',
+                    id: 'fire',
+                    title: 'Crackling Fire',
+                    working: false,
+                    playing: false
+                },{
+                    id: 'stream',
+                    title: 'Cool Stream',
+                    working: false,
+                    playing: false
+                },{
+                    id: 'storm',
+                    title: 'Rolling Thunder',
+                    working: false,
+                    playing: false
+                },{
+                    id: 'birdsong',
+                    title: 'Wild Birdsong',
+                    working: false,
+                    playing: false
+                },{
+                    id: 'crickets',
+                    title: 'Starry Night',
                     working: false,
                     playing: false
                 }];
