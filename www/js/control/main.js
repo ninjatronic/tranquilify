@@ -30,17 +30,28 @@
                     THIS SECTION DEALS WITH LOOPING THE QUOTES
                  */
 
-                $scope.quotes = [{
-                    text: 'In the depth of winter I finally learned that there was in me an invincible summer.',
-                    from: 'Albert Camus'
-                },{
-                    text: 'Keep your face to the sunshine and you cannot see a shadow.',
-                    from: 'Helen Keller'
-                },{
-                    text: 'He is richest who is content with the least, for content is the wealth of nature.',
-                    from: 'Socrates'
-                }];
-
+                $scope.quotes = [
+                    { text: 'In the depth of winter I finally learned that there was in me an invincible summer.', from: 'Albert Camus' },
+                    { text: 'Keep your face to the sunshine and you cannot see a shadow.', from: 'Helen Keller' },
+                    { text: 'He is richest who is content with the least, for content is the wealth of nature.', from: 'Socrates' },
+                    { text: 'Peace comes from within. Do not seek it without.', from: 'Buddha' },
+                    { text: 'Truth alone will endure, all the rest will be swept away before the tide of time.', from: 'Mahatma Gandhi' },
+                    { text: 'We are all in the gutter, but some of us are looking at the stars.', from: 'Oscar Wilde' },
+                    { text: ' A happy man is too satisfied with the present to dwell too much on the future.', from: 'Albert Einstein' },
+                    { text: 'No soul that seriously and constantly desires joy will ever miss it.', from: 'C.S. Lewis' },
+                    { text: 'Affection is the broadest basis of a good life.', from: 'George Eliot' },
+                    { text: 'Life is not meant to be easy, my child, but take courage: it can be delightful.', from: 'George Bernard Shaw' },
+                    { text: 'The time is always right to do what’s right.', from: 'Martin Luther King' },
+                    { text: 'Live, and be happy, and make others so.', from: 'Mary Shelley' },
+                    { text: 'Nothing in life is to be feared, it is only to be understood.', from: 'Marie Curie' },
+                    { text: 'The essential things in life are seen not with the eyes, but with the heart.', from: 'Antoine de Saint Exupéry' },
+                    { text: 'If you\'re going through hell, keep going.', from: 'Winston Churchill' },
+                    { text: 'Everyone deserves to believe they are beautiful.', from: 'John Lennon' },
+                    { text: 'Choose always the way that seems the best, however rough it may be.', from: 'Pythagoras' },
+                    { text: 'Those who bring sunshine into the lives of others cannot keep it from themselves.', from: 'J.M. Barrie' },
+                    { text: 'The greatest work that kindness does to others is that it makes them kind themselves.', from: 'Amelia Earhart' },
+                    { text: 'If we have no peace, it is because we have forgotten that we belong to each other.', from: 'Mother Teresa' }
+                ];
                 $scope.quoteIdx = 0;
                 $scope.quoteChanging = false;
 
@@ -131,7 +142,7 @@
                  */
 
                 $timeout(function() {
-//                    $window.navigator.splashscreen.hide();
+                    $window.navigator.splashscreen.hide();
                     Flipsnap('.flipsnap');
                 }, 100);
 
