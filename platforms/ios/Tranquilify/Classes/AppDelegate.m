@@ -29,6 +29,7 @@
 #import "MainViewController.h"
 
 #import <Cordova/CDVPlugin.h>
+#import <AVFoundation/AVFoundation.h>
 
 @implementation AppDelegate
 
@@ -91,8 +92,34 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     [UIApplication sharedApplication].idleTimerDisabled = YES;
     
+    [self initAudioSession];
+    
     return YES;
 }
+
+-(void) initAudioSession {
+    // Registers this class as the delegate of the audio session to listen for audio interruptions
+    [[AVAudioSession sharedInstance] setDelegate: self];
+    //Set the audio category of this app to playback.
+    NSError *setCategoryError = nil; [[AVAudioSession sharedInstance]
+                                      setCategory: AVAudioSessionCategoryPlayback error: &setCategoryError];
+    if (setCategoryError) {
+        //RESPOND APPROPRIATELY
+    }
+    
+//    // Registers the audio route change listener callback function
+//    // An instance of the audio player/manager is passed to the listener
+//    AudioSessionAddPropertyListener ( kAudioSessionProperty_AudioRouteChange,
+//                                     audioRouteChangeListenerCallback, self );
+//    
+    //Activate the audio session
+    NSError *activationError = nil;
+    [[AVAudioSession sharedInstance] setActive: YES error: &activationError];
+    if (activationError) {
+        //RESPOND APPROPRIATELY
+    }
+}
+
 
 // this happens while we are running ( in the background, or from within our own app )
 // only valid if HelloWorld-Info.plist specifies a protocol to handle
