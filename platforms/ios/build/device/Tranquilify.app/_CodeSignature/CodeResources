@@ -88,13 +88,17 @@
 		<data>
 		xr/lX0jsgvPc5oFMTAMotyWBqi4=
 		</data>
+		<key>www/css/flipsnap.css</key>
+		<data>
+		IFyrvwzSrdLMIn1iGnV2Q9gTXYo=
+		</data>
 		<key>www/css/index.css</key>
 		<data>
-		7zb5Pq6lnFBJrZgircSAQmWQ2Vk=
+		2bF1Mi1Tz4FJUVBWwiQVDCYz7fQ=
 		</data>
 		<key>www/html/main.html</key>
 		<data>
-		kmATqNkXHiwtRMw4T/k5nvYgD5A=
+		Az6U3oE8P93bcBnY6ESp0M91s0g=
 		</data>
 		<key>www/icon/Icon-72.png</key>
 		<data>
@@ -194,7 +198,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		8sCPr4zOxltjkHXVKzEGFspauuA=
+		gyFBdm90id225HF8rwzPlVvtnuA=
 		</data>
 		<key>www/js/app.js</key>
 		<data>
@@ -202,7 +206,7 @@
 		</data>
 		<key>www/js/control/main.js</key>
 		<data>
-		WdIpwPjgM4Y2mxs227i1axlM+SI=
+		4w7MBMOulqc/8EUUQtRtHluDxwg=
 		</data>
 		<key>www/js/control/module.js</key>
 		<data>
@@ -243,6 +247,10 @@
 		<key>www/lib/bootstrap.css</key>
 		<data>
 		ZMzS+in1FwQxAaZRhFo+c+Kf0ts=
+		</data>
+		<key>www/lib/flipsnap.js</key>
+		<data>
+		UQLTHTuOO7hyJQMaOnEyHBZCToo=
 		</data>
 		<key>www/lib/font-awesome/css/font-awesome.css</key>
 		<data>
@@ -419,13 +427,17 @@
 		<data>
 		xr/lX0jsgvPc5oFMTAMotyWBqi4=
 		</data>
+		<key>www/css/flipsnap.css</key>
+		<data>
+		IFyrvwzSrdLMIn1iGnV2Q9gTXYo=
+		</data>
 		<key>www/css/index.css</key>
 		<data>
-		7zb5Pq6lnFBJrZgircSAQmWQ2Vk=
+		2bF1Mi1Tz4FJUVBWwiQVDCYz7fQ=
 		</data>
 		<key>www/html/main.html</key>
 		<data>
-		kmATqNkXHiwtRMw4T/k5nvYgD5A=
+		Az6U3oE8P93bcBnY6ESp0M91s0g=
 		</data>
 		<key>www/icon/Icon-72.png</key>
 		<data>
@@ -525,7 +537,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		8sCPr4zOxltjkHXVKzEGFspauuA=
+		gyFBdm90id225HF8rwzPlVvtnuA=
 		</data>
 		<key>www/js/app.js</key>
 		<data>
@@ -533,7 +545,7 @@
 		</data>
 		<key>www/js/control/main.js</key>
 		<data>
-		WdIpwPjgM4Y2mxs227i1axlM+SI=
+		4w7MBMOulqc/8EUUQtRtHluDxwg=
 		</data>
 		<key>www/js/control/module.js</key>
 		<data>
@@ -574,6 +586,10 @@
 		<key>www/lib/bootstrap.css</key>
 		<data>
 		ZMzS+in1FwQxAaZRhFo+c+Kf0ts=
+		</data>
+		<key>www/lib/flipsnap.js</key>
+		<data>
+		UQLTHTuOO7hyJQMaOnEyHBZCToo=
 		</data>
 		<key>www/lib/font-awesome/css/font-awesome.css</key>
 		<data>

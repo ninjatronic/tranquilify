@@ -4,10 +4,6 @@ html,body {
     padding: 0px;
 }
 
-body {
-    background-image: url('../img/shore.jpg');
-}
-
 div.full-width {
     width: 100%;
 }

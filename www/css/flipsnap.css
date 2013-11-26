@@ -1,0 +1,26 @@
+body {
+    background-color: #000000;
+}
+
+.viewport {
+    width: 320px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.flipsnap {
+    width: 1920px;
+    height: 100%;
+    padding: 0;
+}
+
+.pane {
+    background-size: 100% 100%;
+    padding: 22px;
+    padding-top: 44px;
+    padding-bottom: 0;
+    width: 320px;
+    height: 100%;
+    float: left;
+}

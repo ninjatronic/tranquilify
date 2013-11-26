@@ -66,8 +66,6 @@
                     THIS SECTION DEALS WITH PLAYING THE SOUNDS
                  */
 
-                var soundTrans = 300;
-
                 $scope.sounds = [{
                     id: 'shore',
                     title: 'Stony Shore',
@@ -99,53 +97,26 @@
                     working: false,
                     playing: false
                 }];
-                $scope.soundIdx = 0;
-                $scope.soundChanging = false;
 
-                $scope.play = function(index) {
-                    console.log(index);
-                    $scope.sounds[index].working = true;
-                    $audio.load($scope.sounds[index].id).then(function() {
-                        $audio.loop($scope.sounds[index].id).then(function() {
-                            $scope.sounds[index].playing = true;
-                            $scope.sounds[index].working = false;
+                $scope.play = function(sound) {
+                    sound.working = true;
+                    $audio.load(sound.id).then(function() {
+                        $audio.loop(sound.id).then(function() {
+                            sound.playing = true;
+                            sound.working = false;
                         });
                     });
                 };
 
-                $scope.pause = function(index) {
-                    $scope.sounds[index].working = true;
-                    $audio.stop($scope.sounds[index].id).then(function() {
-                        $audio.unload($scope.sounds[index].id).then(function() {
-                            $scope.sounds[index].playing = false;
-                            $scope.sounds[index].working = false;
+                $scope.pause = function(sound) {
+                    sound.working = true;
+                    $audio.stop(sound.id).then(function() {
+                        $audio.unload(sound.id).then(function() {
+                            sound.playing = false;
+                            sound.working = false;
                         });
                     });
                 };
-
-                $scope.next = function() {
-                    $scope.soundChanging = true;
-                    $timeout(function() {
-                        $scope.soundIdx++;
-                        if($scope.soundIdx === $scope.sounds.length) {
-                            $scope.soundIdx = 0;
-                        }
-                        $scope.soundChanging = false;
-                    }, soundTrans);
-                };
-
-                $scope.previous = function() {
-                    $scope.soundChanging = true;
-                    $timeout(function() {
-                        $scope.soundIdx--;
-                        if($scope.soundIdx === -1) {
-                            $scope.soundIdx = $scope.sounds.length - 1;
-                        }
-                        $scope.soundChanging = false;
-                    }, soundTrans);
-                };
-
-                console.log(angular.element(document.querySelector('#cover')));
 
                 /*
                     THIS SECTION OPENS EXTERNAL LINKS
@@ -160,7 +131,8 @@
                  */
 
                 $timeout(function() {
-                    $window.navigator.splashscreen.hide();
+//                    $window.navigator.splashscreen.hide();
+                    Flipsnap('.flipsnap');
                 }, 100);
 
             }]);
