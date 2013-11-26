@@ -1,0 +1,309 @@
+2013-11-21 20:26:45.769 HelloWorld[87697:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 20:26:47.355 HelloWorld[87697:80b] Resetting plugins due to page load.
+2013-11-21 20:26:47.904 HelloWorld[87697:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8798816D-A8D2-4906-96DD-ECF112EE1B6A/HelloWorld.app/www/index.html#/
+2013-11-21 20:32:27.556 HelloWorld[90995:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 20:32:27.660 HelloWorld[90995:80b] Resetting plugins due to page load.
+2013-11-21 20:32:27.863 HelloWorld[90995:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8798816D-A8D2-4906-96DD-ECF112EE1B6A/HelloWorld.app/www/index.html#/
+2013-11-21 20:40:35.409 HelloWorld[94294:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 20:40:35.894 HelloWorld[94294:80b] Resetting plugins due to page load.
+2013-11-21 20:40:36.683 HelloWorld[94294:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3B222969-34ED-43C0-9D59-17FDD9676ABA/HelloWorld.app/www/index.html#/
+2013-11-21 20:42:50.152 Tranquility[909:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 20:42:50.440 Tranquility[909:80b] Resetting plugins due to page load.
+2013-11-21 20:42:51.608 Tranquility[909:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/E636912A-1EDA-40F3-BE8F-A6BDACC514FD/Tranquility.app/www/index.html#/
+2013-11-21 20:43:46.578 Tranquility[4145:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 20:43:46.854 Tranquility[4145:80b] Resetting plugins due to page load.
+2013-11-21 20:43:47.071 Tranquility[4145:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/35CAC4D4-6052-4785-ACFF-3B133848E7D9/Tranquility.app/www/index.html#/
+2013-11-21 20:52:48.566 Tranquility[7480:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 20:52:48.811 Tranquility[7480:80b] Resetting plugins due to page load.
+2013-11-21 20:52:48.947 Tranquility[7480:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/98E6D04E-2591-4EE5-A658-562178B5DC95/Tranquility.app/www/index.html
+2013-11-21 20:52:54.011 Tranquility[7480:80b] Will attempt to use file resource '../media/ocean.mp3'
+2013-11-21 20:52:54.012 Tranquility[7480:80b] Unknown resource '../media/ocean.mp3'
+2013-11-21 20:54:31.951 Tranquility[7480:80b] Will attempt to use file resource '../media/ocean.mp3'
+2013-11-21 20:54:31.952 Tranquility[7480:80b] Unknown resource '../media/ocean.mp3'
+2013-11-21 20:56:50.175 Tranquility[10758:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 20:56:50.459 Tranquility[10758:80b] Resetting plugins due to page load.
+2013-11-21 20:56:50.595 Tranquility[10758:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/BB8602B7-747C-4B30-8172-6365013E8B5C/Tranquility.app/www/index.html
+2013-11-21 20:57:00.786 Tranquility[10758:80b] Will attempt to use file resource '../media/ocean.mp3'
+2013-11-21 20:57:00.786 Tranquility[10758:80b] Unknown resource '../media/ocean.mp3'
+2013-11-21 20:57:04.277 Tranquility[10758:80b] THREAD WARNING: ['Media'] took '3491.863037' ms. Plugin should use a background thread.
+2013-11-21 20:57:06.639 Tranquility[10758:80b] Will attempt to use file resource '../media/ocean.mp3'
+2013-11-21 20:57:06.639 Tranquility[10758:80b] Unknown resource '../media/ocean.mp3'
+2013-11-21 20:57:08.252 Tranquility[10758:80b] THREAD WARNING: ['Media'] took '1613.785889' ms. Plugin should use a background thread.
+2013-11-21 20:57:22.707 Tranquility[10758:80b] Will attempt to use file resource '../media/ocean.mp3'
+2013-11-21 20:57:22.707 Tranquility[10758:80b] Unknown resource '../media/ocean.mp3'
+2013-11-21 21:01:25.691 Tranquility[10758:80b] THREAD WARNING: ['Media'] took '242984.429199' ms. Plugin should use a background thread.
+2013-11-21 21:02:16.122 Tranquility[10758:80b] Will attempt to use file resource '../media/ocean.mp3'
+2013-11-21 21:02:16.123 Tranquility[10758:80b] Unknown resource '../media/ocean.mp3'
+2013-11-21 21:02:18.137 Tranquility[10758:80b] THREAD WARNING: ['Media'] took '2014.939209' ms. Plugin should use a background thread.
+2013-11-21 21:02:28.020 Tranquility[10758:80b] Will attempt to use file resource '../media/ocean.mp3'
+2013-11-21 21:02:28.021 Tranquility[10758:80b] Unknown resource '../media/ocean.mp3'
+2013-11-21 21:02:29.792 Tranquility[10758:80b] THREAD WARNING: ['Media'] took '1772.730225' ms. Plugin should use a background thread.
+2013-11-21 21:04:07.816 Tranquility[14037:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 21:04:08.040 Tranquility[14037:80b] Resetting plugins due to page load.
+2013-11-21 21:04:08.163 Tranquility[14037:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9311E865-B5D7-4B77-8589-0EC7F8A7224B/Tranquility.app/www/index.html
+2013-11-21 21:09:04.417 Tranquility[14037:80b] Will attempt to use file resource 'file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9311E865-B5D7-4B77-8589-0EC7F8A7224B/Tranquility.app/www/media/ocean.mp3'
+2013-11-21 21:09:04.418 Tranquility[14037:80b] Unknown resource 'file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9311E865-B5D7-4B77-8589-0EC7F8A7224B/Tranquility.app/www/media/ocean.mp3'
+2013-11-21 21:09:46.436 Tranquility[14037:80b] THREAD WARNING: ['Media'] took '42019.738037' ms. Plugin should use a background thread.
+2013-11-21 21:11:10.749 Tranquilify[17309:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 21:11:11.137 Tranquilify[17309:80b] Resetting plugins due to page load.
+2013-11-21 21:11:11.483 Tranquilify[17309:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3B11492C-D63D-4761-9905-0946F5372270/Tranquilify.app/www/index.html
+2013-11-21 21:11:13.985 Tranquilify[17309:80b] Will attempt to use file resource '/Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3B11492C-D63D-4761-9905-0946F5372270/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:11:13.986 Tranquilify[17309:80b] Unknown resource '/Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3B11492C-D63D-4761-9905-0946F5372270/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:11:56.727 Tranquilify[17309:80b] THREAD WARNING: ['Media'] took '42741.882080' ms. Plugin should use a background thread.
+2013-11-21 21:12:42.469 Tranquilify[17309:80b] Will attempt to use file resource '/Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3B11492C-D63D-4761-9905-0946F5372270/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:12:42.470 Tranquilify[17309:80b] Unknown resource '/Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3B11492C-D63D-4761-9905-0946F5372270/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:14:45.530 Tranquilify[17309:80b] THREAD WARNING: ['Media'] took '123061.077148' ms. Plugin should use a background thread.
+2013-11-21 21:15:49.399 Tranquilify[20592:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 21:15:49.662 Tranquilify[20592:80b] Resetting plugins due to page load.
+2013-11-21 21:15:49.802 Tranquilify[20592:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7C83EE49-1739-4F87-853F-923485FD413B/Tranquilify.app/www/index.html
+2013-11-21 21:19:05.615 Tranquilify[20592:80b] Will attempt to use file resource '/Users/pete/Library/Application Support/iPhone%20Simulator/7.0.3/Applications/7C83EE49-1739-4F87-853F-923485FD413B/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:19:05.616 Tranquilify[20592:80b] Unknown resource '/Users/pete/Library/Application Support/iPhone%20Simulator/7.0.3/Applications/7C83EE49-1739-4F87-853F-923485FD413B/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:19:14.429 Tranquilify[20592:80b] THREAD WARNING: ['Media'] took '8814.560791' ms. Plugin should use a background thread.
+2013-11-21 21:21:17.467 Tranquilify[23874:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 21:21:17.746 Tranquilify[23874:80b] Resetting plugins due to page load.
+2013-11-21 21:21:17.898 Tranquilify[23874:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/0B3A81A1-2E1F-4C65-810A-BA9AA9E94D54/Tranquilify.app/www/index.html
+2013-11-21 21:23:13.305 Tranquilify[23874:80b] Will attempt to use file resource '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0B3A81A1-2E1F-4C65-810A-BA9AA9E94D54/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:23:14.822 Tranquilify[23874:80b] Playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0B3A81A1-2E1F-4C65-810A-BA9AA9E94D54/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:23:14.827 Tranquilify[23874:80b] THREAD WARNING: ['Media'] took '1521.908203' ms. Plugin should use a background thread.
+2013-11-21 21:23:51.872 Tranquilify[23874:b007] 21:23:51.872 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-21 21:23:51.873 Tranquilify[23874:b007] 21:23:51.873 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-21 21:24:30.441 Tranquilify[23874:80b] Paused playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0B3A81A1-2E1F-4C65-810A-BA9AA9E94D54/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:24:30.483 Tranquilify[23874:80b] THREAD WARNING: ['Media'] took '41.783936' ms. Plugin should use a background thread.
+2013-11-21 21:24:32.590 Tranquilify[23874:80b] Playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0B3A81A1-2E1F-4C65-810A-BA9AA9E94D54/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:24:34.510 Tranquilify[23874:80b] Paused playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0B3A81A1-2E1F-4C65-810A-BA9AA9E94D54/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:24:34.557 Tranquilify[23874:80b] THREAD WARNING: ['Media'] took '46.654053' ms. Plugin should use a background thread.
+2013-11-21 21:24:35.517 Tranquilify[23874:80b] Playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0B3A81A1-2E1F-4C65-810A-BA9AA9E94D54/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:24:36.551 Tranquilify[23874:80b] Paused playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0B3A81A1-2E1F-4C65-810A-BA9AA9E94D54/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 21:24:36.601 Tranquilify[23874:80b] THREAD WARNING: ['Media'] took '49.517090' ms. Plugin should use a background thread.
+2013-11-21 21:57:51.548 Tranquilify[27248:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-21 21:57:51.803 Tranquilify[27248:80b] Resetting plugins due to page load.
+2013-11-21 21:57:52.005 Tranquilify[27248:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/0C77233F-22CD-44B7-8D49-DB8DC66DF884/Tranquilify.app/www/index.html
+2013-11-21 22:36:11.200 Tranquilify[27248:80b] ERROR whitelist rejection: url='http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fitunes.com%2Fapps%2Ftranquilify&width&layout=standard&action=like&show_faces=true&share=true&height=80&appId=1382653545306440'
+2013-11-21 22:36:16.670 Tranquilify[27248:80b] Will attempt to use file resource '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0C77233F-22CD-44B7-8D49-DB8DC66DF884/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 22:36:17.902 Tranquilify[27248:80b] Playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0C77233F-22CD-44B7-8D49-DB8DC66DF884/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 22:36:17.908 Tranquilify[27248:80b] THREAD WARNING: ['Media'] took '1237.784912' ms. Plugin should use a background thread.
+2013-11-21 22:36:23.848 Tranquilify[27248:80b] Paused playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0C77233F-22CD-44B7-8D49-DB8DC66DF884/Tranquilify.app/www/media/ocean.mp3'
+2013-11-21 22:36:23.887 Tranquilify[27248:80b] THREAD WARNING: ['Media'] took '39.208740' ms. Plugin should use a background thread.
+2013-11-21 22:37:47.421 Tranquilify[27248:2fd7] 22:37:47.420 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-21 22:37:47.423 Tranquilify[27248:5baf] 22:37:47.423 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-21 22:41:54.421 Tranquilify[27248:80b] Simulator slow-motion animations are now on
+2013-11-21 22:49:42.532 Tranquilify[27248:601b] 22:49:42.532 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-22 09:00:18.600 Tranquilify[27248:5b33] 09:00:18.600 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-22 09:00:18.631 Tranquilify[27248:8813] 09:00:18.631 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-22 10:31:24.969 Tranquilify[27248:80b] Playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0C77233F-22CD-44B7-8D49-DB8DC66DF884/Tranquilify.app/www/media/ocean.mp3'
+2013-11-22 10:31:24.986 Tranquilify[27248:80b] THREAD WARNING: ['Media'] took '17.586914' ms. Plugin should use a background thread.
+2013-11-22 10:31:25.998 Tranquilify[27248:80b] Paused playing audio sample '/Users/pete/Library/Application Support/iPhone Simulator/7.0.3/Applications/0C77233F-22CD-44B7-8D49-DB8DC66DF884/Tranquilify.app/www/media/ocean.mp3'
+2013-11-22 10:31:26.043 Tranquilify[27248:80b] THREAD WARNING: ['Media'] took '44.170898' ms. Plugin should use a background thread.
+2013-11-22 11:45:30.029 Tranquilify[36954:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 11:45:30.616 Tranquilify[36954:80b] Resetting plugins due to page load.
+2013-11-22 11:45:30.839 Tranquilify[36954:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/554CF241-592A-43D5-9C40-94F44F3087F5/Tranquilify.app/www/index.html
+2013-11-22 11:45:30.873 Tranquilify[36954:80b] THREAD WARNING: ['Device'] took '10.713867' ms. Plugin should use a background thread.
+2013-11-22 12:08:01.026 Tranquilify[41843:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 12:08:01.302 Tranquilify[41843:80b] Resetting plugins due to page load.
+2013-11-22 12:08:01.712 Tranquilify[41843:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/554CF241-592A-43D5-9C40-94F44F3087F5/Tranquilify.app/www/index.html
+2013-11-22 13:39:42.794 Tranquilify[45574:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 13:39:43.978 Tranquilify[45574:80b] Resetting plugins due to page load.
+2013-11-22 13:39:44.267 Tranquilify[45574:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/554CF241-592A-43D5-9C40-94F44F3087F5/Tranquilify.app/www/index.html
+2013-11-22 13:48:19.015 Tranquilify[48878:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 13:48:19.297 Tranquilify[48878:80b] Resetting plugins due to page load.
+2013-11-22 13:48:19.444 Tranquilify[48878:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/34C87EC0-E942-4FB6-9873-BFC8FD033375/Tranquilify.app/www/index.html
+2013-11-22 13:50:03.332 Tranquilify[52136:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 13:50:03.604 Tranquilify[52136:80b] Resetting plugins due to page load.
+2013-11-22 13:50:03.742 Tranquilify[52136:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/ECE2D6D2-70AC-4C50-8FFE-24DFBCEBF7DA/Tranquilify.app/www/index.html
+2013-11-22 13:54:03.784 Tranquilify[55428:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 13:54:04.215 Tranquilify[55428:80b] Resetting plugins due to page load.
+2013-11-22 13:54:04.571 Tranquilify[55428:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/BBE42EE3-C9CA-451F-AED4-0E50262FBDD8/Tranquilify.app/www/index.html
+2013-11-22 13:54:30.380 Tranquilify[55428:4103] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-22 15:10:39.394 Tranquilify[58764:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 15:10:39.662 Tranquilify[58764:80b] Resetting plugins due to page load.
+2013-11-22 15:10:39.782 Tranquilify[58764:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/C20C55B8-4F21-4E24-8AC7-8F40D516AD32/Tranquilify.app/www/index.html
+2013-11-22 15:14:02.932 Tranquilify[58764:4603] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-22 15:14:02.937 Tranquilify[58764:1327] -[NSNull intValue]: unrecognized selector sent to instance 0x231068
+2013-11-22 15:14:02.995 Tranquilify[58764:1327] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[NSNull intValue]: unrecognized selector sent to instance 0x231068'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x000e55e4 __exceptionPreprocess + 180
+	1   libobjc.A.dylib                     0x020df8b6 objc_exception_throw + 44
+	2   CoreFoundation                      0x00182903 -[NSObject(NSObject) doesNotRecognizeSelector:] + 275
+	3   CoreFoundation                      0x000d590b ___forwarding___ + 1019
+	4   CoreFoundation                      0x000d54ee _CF_forwarding_prep_0 + 14
+	5   Tranquilify                         0x0002fb17 -[LowLatencyAudioAsset initWithPath:withVoices:] + 327
+	6   Tranquilify                         0x0002dce1 __32-[LowLatencyAudio preloadAudio:]_block_invoke + 1073
+	7   libdispatch.dylib                   0x026337f8 _dispatch_call_block_and_release + 15
+	8   libdispatch.dylib                   0x026484b0 _dispatch_client_callout + 14
+	9   libdispatch.dylib                   0x02636eeb _dispatch_root_queue_drain + 287
+	10  libdispatch.dylib                   0x02637137 _dispatch_worker_thread2 + 39
+	11  libsystem_pthread.dylib             0x029d4dab _pthread_wqthread + 336
+	12  libsystem_pthread.dylib             0x029d8cce start_wqthread + 30
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+2013-11-22 15:22:14.681 Tranquilify[62092:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 15:22:14.944 Tranquilify[62092:80b] Resetting plugins due to page load.
+2013-11-22 15:22:15.113 Tranquilify[62092:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/79DC04BF-FD2F-45ED-A35E-E477D9980AE1/Tranquilify.app/www/index.html
+2013-11-22 15:23:46.001 Tranquilify[62092:4003] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-22 15:32:35.134 Tranquilify[65402:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 15:32:35.326 Tranquilify[65402:80b] Resetting plugins due to page load.
+2013-11-22 15:32:35.563 Tranquilify[65402:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/31184253-D0E6-4C56-B462-E50667C6AE6E/Tranquilify.app/www/index.html
+2013-11-22 15:33:00.883 Tranquilify[65402:4103] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-22 16:02:07.242 Tranquilify[68879:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 16:02:07.811 Tranquilify[68879:80b] Resetting plugins due to page load.
+2013-11-22 16:02:07.974 Tranquilify[68879:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1DF6ACA4-9AF3-4D63-8878-9E11C0742B85/Tranquilify.app/www/index.html
+2013-11-22 16:11:08.752 Tranquilify[72195:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 16:11:09.185 Tranquilify[72195:80b] Resetting plugins due to page load.
+2013-11-22 16:11:09.617 Tranquilify[72195:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7B59BC90-1A49-48B7-9E0A-38D7BCAE8E29/Tranquilify.app/www/index.html
+2013-11-22 16:13:54.989 Tranquilify[75484:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-22 16:13:55.197 Tranquilify[75484:80b] Resetting plugins due to page load.
+2013-11-22 16:13:55.327 Tranquilify[75484:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B516835F-6F8A-4929-89DD-8447CF9AB89D/Tranquilify.app/www/index.html
+2013-11-23 10:59:37.463 Tranquilify[79363:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 10:59:37.711 Tranquilify[79363:80b] Resetting plugins due to page load.
+2013-11-23 10:59:37.970 Tranquilify[79363:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A1CD616C-C763-40C9-9C94-A94B99DBB8DC/Tranquilify.app/www/index.html
+2013-11-23 11:01:42.481 Tranquilify[82631:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 11:01:42.731 Tranquilify[82631:80b] Resetting plugins due to page load.
+2013-11-23 11:01:42.915 Tranquilify[82631:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9E4BA1F2-E6D1-4221-9D85-867AA1E12B88/Tranquilify.app/www/index.html
+2013-11-23 11:15:00.103 Tranquilify[82631:1293] 11:15:00.103 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-23 11:15:00.105 Tranquilify[82631:b45f] 11:15:00.105 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-23 12:30:37.875 Tranquilify[86461:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 12:30:38.117 Tranquilify[86461:80b] Resetting plugins due to page load.
+2013-11-23 12:30:38.375 Tranquilify[86461:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/4083E145-0707-484A-B62E-514F77EE6921/Tranquilify.app/www/index.html
+2013-11-23 12:30:38.410 Tranquilify[86461:80b] THREAD WARNING: ['Device'] took '18.294922' ms. Plugin should use a background thread.
+2013-11-23 12:53:44.810 Tranquilify[89907:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 12:53:45.140 Tranquilify[89907:80b] Resetting plugins due to page load.
+2013-11-23 12:53:45.437 Tranquilify[89907:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/284E720E-D1C1-48D4-AE03-20CAF2C3CE7B/Tranquilify.app/www/index.html
+2013-11-23 12:53:45.472 Tranquilify[89907:80b] THREAD WARNING: ['Device'] took '20.274170' ms. Plugin should use a background thread.
+2013-11-23 12:58:12.176 Tranquilify[93214:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 12:58:12.893 Tranquilify[93214:80b] Resetting plugins due to page load.
+2013-11-23 12:58:13.428 Tranquilify[93214:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/46383EE0-95C8-4D0D-A401-C39D0570816B/Tranquilify.app/www/index.html
+2013-11-23 12:58:13.470 Tranquilify[93214:80b] THREAD WARNING: ['Device'] took '25.800049' ms. Plugin should use a background thread.
+2013-11-23 13:07:17.489 Tranquilify[96532:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 13:07:17.754 Tranquilify[96532:80b] Resetting plugins due to page load.
+2013-11-23 13:07:18.036 Tranquilify[96532:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/93F6BC84-773B-40CB-9F68-7371F4C37994/Tranquilify.app/www/index.html
+2013-11-23 14:24:47.666 Tranquilify[349:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 14:24:47.983 Tranquilify[349:80b] Resetting plugins due to page load.
+2013-11-23 14:24:48.434 Tranquilify[349:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9CB48206-00EF-4BA0-87BE-6506B475C11C/Tranquilify.app/www/index.html
+2013-11-23 14:26:21.507 Tranquilify[349:2b13] 14:26:21.507 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-23 14:26:21.511 Tranquilify[349:2b13] 14:26:21.511 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2013-11-23 15:03:56.754 Tranquilify[4488:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 15:03:57.043 Tranquilify[4488:80b] Resetting plugins due to page load.
+2013-11-23 15:03:57.229 Tranquilify[4488:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9C4619B4-ACF1-4CBD-8105-89C367CAA20D/Tranquilify.app/www/index.html
+2013-11-23 15:28:58.253 Tranquilify[11356:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 15:28:58.462 Tranquilify[11356:80b] Resetting plugins due to page load.
+2013-11-23 15:28:59.001 Tranquilify[11356:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/BC59F5AE-D272-4C3F-9ABF-AF258847296C/Tranquilify.app/www/index.html
+2013-11-23 15:37:21.305 Tranquilify[18159:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 15:37:21.549 Tranquilify[18159:80b] Resetting plugins due to page load.
+2013-11-23 15:37:21.774 Tranquilify[18159:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/840C5709-C34E-400D-B606-D69280708502/Tranquilify.app/www/index.html
+2013-11-23 16:17:59.779 Tranquilify[22227:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 16:18:00.038 Tranquilify[22227:80b] Resetting plugins due to page load.
+2013-11-23 16:18:00.260 Tranquilify[22227:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/29BD984F-B8BF-432F-B65F-FC0B09970410/Tranquilify.app/www/index.html
+2013-11-23 17:32:24.522 Tranquilify[26444:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 17:32:24.777 Tranquilify[26444:80b] Resetting plugins due to page load.
+2013-11-23 17:32:25.148 Tranquilify[26444:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/29BD984F-B8BF-432F-B65F-FC0B09970410/Tranquilify.app/www/index.html
+2013-11-23 17:42:33.849 Tranquilify[31596:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 17:42:34.100 Tranquilify[31596:80b] Resetting plugins due to page load.
+2013-11-23 17:42:34.295 Tranquilify[31596:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/4DD0EBE8-D4F9-4C15-A43D-A61D4F38665D/Tranquilify.app/www/index.html
+2013-11-23 17:48:04.455 Tranquilify[31596:80b] THREAD WARNING: ['LowLatencyAudio'] took '17.417725' ms. Plugin should use a background thread.
+2013-11-23 17:56:11.182 Tranquilify[34944:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 17:56:11.431 Tranquilify[34944:80b] Resetting plugins due to page load.
+2013-11-23 17:56:11.656 Tranquilify[34944:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/FA380129-0C86-4708-9A29-1E850EA938B2/Tranquilify.app/www/index.html
+2013-11-23 17:56:11.699 Tranquilify[34944:80b] THREAD WARNING: ['Device'] took '12.630859' ms. Plugin should use a background thread.
+2013-11-23 17:59:38.551 Tranquilify[38534:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 17:59:38.836 Tranquilify[38534:80b] Resetting plugins due to page load.
+2013-11-23 17:59:39.151 Tranquilify[38534:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/5891F234-404E-43DF-A9A1-85C16B4BE47C/Tranquilify.app/www/index.html
+2013-11-23 18:01:14.596 Tranquilify[41831:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 18:01:14.811 Tranquilify[41831:80b] Resetting plugins due to page load.
+2013-11-23 18:01:14.982 Tranquilify[41831:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/ECF9CA60-8431-4318-9AF7-E7E6BD9AAAC4/Tranquilify.app/www/index.html
+2013-11-23 19:48:04.737 Tranquilify[46457:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 19:48:05.018 Tranquilify[46457:80b] Resetting plugins due to page load.
+2013-11-23 19:48:05.679 Tranquilify[46457:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/0EC5164D-AD6F-4109-94CF-DBEBE1E61D9A/Tranquilify.app/www/index.html
+2013-11-23 20:04:47.188 Tranquilify[50187:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 20:04:47.553 Tranquilify[50187:80b] Resetting plugins due to page load.
+2013-11-23 20:04:47.776 Tranquilify[50187:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/DBC48CA2-5138-4361-8603-10462589ED59/Tranquilify.app/www/index.html
+2013-11-23 22:26:39.751 Tranquilify[57653:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 22:26:40.316 Tranquilify[57653:80b] Resetting plugins due to page load.
+2013-11-23 22:26:40.946 Tranquilify[57653:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/96290099-B297-493D-B821-2E8CD156C518/Tranquilify.app/www/index.html
+2013-11-23 22:33:51.291 Tranquilify[57653:4203] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-23 22:34:16.983 Tranquilify[57653:80b] THREAD WARNING: ['LowLatencyAudio'] took '18.781982' ms. Plugin should use a background thread.
+2013-11-23 22:58:41.856 Tranquilify[61112:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 22:58:42.132 Tranquilify[61112:80b] Resetting plugins due to page load.
+2013-11-23 22:58:42.410 Tranquilify[61112:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/333AB4D8-0584-4930-B24B-8D87AD4785C8/Tranquilify.app/www/index.html
+2013-11-23 22:58:42.624 Tranquilify[61112:80b] THREAD WARNING: ['Device'] took '191.964111' ms. Plugin should use a background thread.
+2013-11-23 22:59:33.219 Tranquilify[61112:4103] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-23 23:01:32.687 Tranquilify[64435:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 23:01:32.986 Tranquilify[64435:80b] Resetting plugins due to page load.
+2013-11-23 23:01:33.113 Tranquilify[64435:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/CE02B0F3-A6BF-4881-8685-112BAEDFD780/Tranquilify.app/www/index.html
+2013-11-23 23:03:34.196 Tranquilify[64435:3e07] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-23 23:41:14.088 Tranquilify[68068:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-23 23:41:14.919 Tranquilify[68068:80b] Resetting plugins due to page load.
+2013-11-23 23:41:16.267 Tranquilify[68068:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/28B369F3-C953-4323-B65D-65E57A26861B/Tranquilify.app/www/index.html
+2013-11-23 23:41:16.287 Tranquilify[68068:80b] THREAD WARNING: ['Device'] took '13.145752' ms. Plugin should use a background thread.
+2013-11-23 23:41:35.211 Tranquilify[68068:80b] THREAD WARNING: ['LowLatencyAudio'] took '10.706787' ms. Plugin should use a background thread.
+2013-11-24 00:23:02.802 Tranquilify[71641:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 00:23:03.092 Tranquilify[71641:80b] Resetting plugins due to page load.
+2013-11-24 00:23:03.285 Tranquilify[71641:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A2571B51-07F7-4D78-B145-650B3F9F9BCF/Tranquilify.app/www/index.html
+2013-11-24 00:23:03.325 Tranquilify[71641:80b] THREAD WARNING: ['Device'] took '20.421875' ms. Plugin should use a background thread.
+2013-11-24 00:46:45.557 Tranquilify[75134:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 00:46:45.811 Tranquilify[75134:80b] Resetting plugins due to page load.
+2013-11-24 00:46:45.998 Tranquilify[75134:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/ED3C17CF-9D8F-471C-9A25-FDA15D8E573D/Tranquilify.app/www/index.html
+2013-11-24 01:06:09.508 Tranquilify[79020:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 01:06:10.847 Tranquilify[79020:80b] Resetting plugins due to page load.
+2013-11-24 01:06:11.101 Tranquilify[79020:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/ED3C17CF-9D8F-471C-9A25-FDA15D8E573D/Tranquilify.app/www/index.html
+2013-11-24 01:28:36.683 Tranquilify[84590:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 01:28:37.069 Tranquilify[84590:80b] Resetting plugins due to page load.
+2013-11-24 01:28:37.471 Tranquilify[84590:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/134BC520-3F1F-43B6-95BD-55D909AE6D3D/Tranquilify.app/www/index.html
+2013-11-24 01:34:07.555 Tranquilify[91055:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 01:34:07.781 Tranquilify[91055:80b] Resetting plugins due to page load.
+2013-11-24 01:34:07.883 Tranquilify[91055:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/6E9BB537-BF33-46C6-8C7D-D8AE4D7F37C5/Tranquilify.app/www/index.html
+2013-11-24 01:42:09.352 Tranquilify[938:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 01:42:09.788 Tranquilify[938:80b] Resetting plugins due to page load.
+2013-11-24 01:42:09.887 Tranquilify[938:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1706C8FD-70B2-400A-BB02-79060D5E0AFA/Tranquilify.app/www/index.html
+2013-11-24 01:42:10.010 Tranquilify[938:80b] THREAD WARNING: ['Device'] took '93.767090' ms. Plugin should use a background thread.
+2013-11-24 01:44:04.005 Tranquilify[938:4003] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-24 02:18:31.163 Tranquilify[3735:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:18:31.523 Tranquilify[3735:80b] Resetting plugins due to page load.
+2013-11-24 02:18:32.756 Tranquilify[3735:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/4F03AD0A-C047-4789-908E-6685C23C5519/Tranquilify.app/www/index.html
+2013-11-24 02:20:42.806 Tranquilify[4257:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:20:43.082 Tranquilify[4257:80b] Resetting plugins due to page load.
+2013-11-24 02:20:43.204 Tranquilify[4257:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D3E582FA-0F6C-4D72-8283-86364433B78D/Tranquilify.app/www/index.html
+2013-11-24 02:28:54.793 Tranquilify[4825:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:28:55.078 Tranquilify[4825:80b] Resetting plugins due to page load.
+2013-11-24 02:28:55.240 Tranquilify[4825:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/EFE80000-5819-44B4-B355-C5182273F8A1/Tranquilify.app/www/index.html
+2013-11-24 02:29:24.388 Tranquilify[4825:4503] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2013-11-24 02:37:55.699 Tranquilify[5790:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:37:55.916 Tranquilify[5790:80b] Resetting plugins due to page load.
+2013-11-24 02:37:56.044 Tranquilify[5790:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F0104A48-D1BA-4180-BDD3-0ECE2AD60333/Tranquilify.app/www/index.html
+2013-11-24 02:40:12.981 Tranquilify[5790:80b] Received memory warning.
+2013-11-24 02:44:28.397 Tranquilify[6899:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:44:28.677 Tranquilify[6899:80b] Resetting plugins due to page load.
+2013-11-24 02:44:28.809 Tranquilify[6899:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/43A308ED-08F1-4A56-BF1E-EDD42C0283F5/Tranquilify.app/www/index.html
+2013-11-24 02:46:03.777 Tranquilify[7608:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:46:03.989 Tranquilify[7608:80b] Resetting plugins due to page load.
+2013-11-24 02:46:04.208 Tranquilify[7608:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/AB8D4C46-C87C-4273-9576-DAA62C395161/Tranquilify.app/www/index.html
+2013-11-24 02:47:35.731 Tranquilify[8218:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:47:36.008 Tranquilify[8218:80b] Resetting plugins due to page load.
+2013-11-24 02:47:36.130 Tranquilify[8218:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F21F5B4C-FCCF-4300-AB35-944C82C4593E/Tranquilify.app/www/index.html
+2013-11-24 02:49:45.387 Tranquilify[8831:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:49:45.579 Tranquilify[8831:80b] Resetting plugins due to page load.
+2013-11-24 02:49:45.692 Tranquilify[8831:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F21F5B4C-FCCF-4300-AB35-944C82C4593E/Tranquilify.app/www/index.html
+2013-11-24 02:51:11.403 Tranquilify[9700:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:51:11.507 Tranquilify[9700:80b] Resetting plugins due to page load.
+2013-11-24 02:51:11.645 Tranquilify[9700:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F21F5B4C-FCCF-4300-AB35-944C82C4593E/Tranquilify.app/www/index.html
+2013-11-24 02:52:16.072 Tranquilify[10353:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:52:16.208 Tranquilify[10353:80b] Resetting plugins due to page load.
+2013-11-24 02:52:16.374 Tranquilify[10353:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F21F5B4C-FCCF-4300-AB35-944C82C4593E/Tranquilify.app/www/index.html
+2013-11-24 02:53:30.496 Tranquilify[10853:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 02:53:30.750 Tranquilify[10853:80b] Resetting plugins due to page load.
+2013-11-24 02:53:30.887 Tranquilify[10853:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F21F5B4C-FCCF-4300-AB35-944C82C4593E/Tranquilify.app/www/index.html
+2013-11-24 10:15:25.779 Tranquilify[11822:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 10:15:25.899 Tranquilify[11822:80b] [CDVTimer][splashscreen] 87.297976ms
+2013-11-24 10:15:25.899 Tranquilify[11822:80b] [CDVTimer][TotalPluginStartup] 87.875009ms
+2013-11-24 10:15:26.221 Tranquilify[11822:80b] Resetting plugins due to page load.
+2013-11-24 10:15:26.353 Tranquilify[11822:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F21F5B4C-FCCF-4300-AB35-944C82C4593E/Tranquilify.app/www/index.html
+2013-11-24 10:16:21.391 Tranquilify[12334:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 10:16:21.448 Tranquilify[12334:80b] [CDVTimer][splashscreen] 11.768997ms
+2013-11-24 10:16:21.449 Tranquilify[12334:80b] [CDVTimer][TotalPluginStartup] 12.471974ms
+2013-11-24 10:16:21.775 Tranquilify[12334:80b] Resetting plugins due to page load.
+2013-11-24 10:16:21.911 Tranquilify[12334:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/5339E820-7AC1-4208-8279-3E1A6680C0BD/Tranquilify.app/www/index.html
+2013-11-24 10:19:44.392 Tranquilify[12887:80b] Multi-tasking -> Device: YES, App: YES
+2013-11-24 10:19:44.463 Tranquilify[12887:80b] [CDVTimer][splashscreen] 28.882027ms
+2013-11-24 10:19:44.464 Tranquilify[12887:80b] [CDVTimer][TotalPluginStartup] 29.770017ms
+2013-11-24 10:19:44.816 Tranquilify[12887:80b] Resetting plugins due to page load.
+2013-11-24 10:19:44.936 Tranquilify[12887:80b] Finished load of: file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B47A83CE-D023-4A1A-981F-354E78D7B2BA/Tranquilify.app/www/index.html
