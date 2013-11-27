@@ -45,12 +45,11 @@
                     { text: 'Live, and be happy, and make others so.', from: 'Mary Shelley' },
                     { text: 'Nothing in life is to be feared, it is only to be understood.', from: 'Marie Curie' },
                     { text: 'The essential things in life are seen not with the eyes, but with the heart.', from: 'Antoine de Saint Exupéry' },
-                    { text: 'If you\'re going through hell, keep going.', from: 'Winston Churchill' },
                     { text: 'Everyone deserves to believe they are beautiful.', from: 'John Lennon' },
                     { text: 'Choose always the way that seems the best, however rough it may be.', from: 'Pythagoras' },
                     { text: 'Those who bring sunshine into the lives of others cannot keep it from themselves.', from: 'J.M. Barrie' },
                     { text: 'The greatest work that kindness does to others is that it makes them kind themselves.', from: 'Amelia Earhart' },
-                    { text: 'If we have no peace,it is because we have forgotten that we belong to each other.', from: 'Mother Teresa' }
+                    { text: 'If we have no peace, it is because we have forgotten that we belong to each other.', from: 'Mother Teresa' }
                 ];
                 $scope.quoteIdx = 0;
                 $scope.quoteChanging = false;
