@@ -141,7 +141,9 @@
                  */
 
                 $timeout(function() {
-                    $window.navigator.splashscreen.hide();
+                    if($window.navigator.splashscreen) {
+                        $window.navigator.splashscreen.hide();
+                    }
                     Flipsnap('.flipsnap');
                 }, 100);
 
