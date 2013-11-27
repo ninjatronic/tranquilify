@@ -16,7 +16,6 @@ div.overlay {
     border-radius: 11px;
     background-color: #ffffff;
     opacity: 0.7;
-    padding-bottom: 44px;
 }
 
 h1, h2, h3 {
@@ -44,7 +43,7 @@ div.footer {
 }
 
 .circles {
-    letter-spacing: 3px;
+    letter-spacing: 23px;
     color: #ffffff;
     opacity: 0.8;
     margin-top: 3px;
