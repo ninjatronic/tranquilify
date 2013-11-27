@@ -1,897 +1,0 @@
-TTranquilify
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Info.plist /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Info.plist
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/Tranquilify.app/ResourceRules.plist
-cPhaseScriptExecution Copy\ www\ directory /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Script-304B58A110DAC018002A0835.sh
-cCpResource Tranquilify/config.xml build/device/Tranquilify.app/config.xml
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72.png Tranquilify/Resources/icons/icon-72.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon.png Tranquilify/Resources/icons/icon.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon@2x.png Tranquilify/Resources/icons/icon@2x.png
-cCopyStringsFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/en.lproj/Localizable.strings Tranquilify/Resources/en.lproj/Localizable.strings
-cCopyStringsFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/es.lproj/Localizable.strings Tranquilify/Resources/es.lproj/Localizable.strings
-cCompileXIB /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.xib
-cCopyStringsFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/de.lproj/Localizable.strings Tranquilify/Resources/de.lproj/Localizable.strings
-cCopyStringsFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/se.lproj/Localizable.strings Tranquilify/Resources/se.lproj/Localizable.strings
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape@2x~ipad.png Tranquilify/Resources/splash/Default-Landscape@2x~ipad.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape~ipad.png Tranquilify/Resources/splash/Default-Landscape~ipad.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait@2x~ipad.png Tranquilify/Resources/splash/Default-Portrait@2x~ipad.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait~ipad.png Tranquilify/Resources/splash/Default-Portrait~ipad.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default@2x~iphone.png Tranquilify/Resources/splash/Default@2x~iphone.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default~iphone.png Tranquilify/Resources/splash/Default~iphone.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-568h@2x~iphone.png Tranquilify/Resources/splash/Default-568h@2x~iphone.png
-cCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72@2x.png Tranquilify/Resources/icons/icon-72@2x.png
-cProcessPCH /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch.pch Tranquilify/Tranquilify-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify normal armv7
-cGenerateDSYMFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app.dSYM /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify
-cProcessProductPackaging /Users/pete/Library/MobileDevice/Provisioning\ Profiles/146B4DF3-973C-4A17-B02E-6D50247BCF51.mobileprovision /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/embedded.mobileprovision
-cTouch /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent
-cCodeSign /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000525642EE0000000000000110
-t1381384942
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-c0000000052827AEB0000000000000094
-t1384282859
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-c0000000052827AEB0000000000000096
-t1384282859
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c0000000052827AEB000000000000036B
-t1384282859
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052827AEB00000000000001A0
-t1384282859
-s416
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-c0000000052827AEC0000000000075BB0
-t1384282860
-s482224
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000052827AED0000000000CF72E0
-t1384282861
-s13595360
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000052827AED00000000004D63C0
-t1384282861
-s5071808
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c0000000052827AED0000000000146100
-t1384282861
-s1335552
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c0000000052827AEF0000000000210C80
-t1384282863
-s2165888
-
-N/Users/pete/Library/MobileDevice/Provisioning Profiles/146B4DF3-973C-4A17-B02E-6D50247BCF51.mobileprovision
-c000000005291D41F0000000000001D07
-t1385288735
-s7431
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.m
-c000000005291E824000000000000144B
-t1385293860
-s5195
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.m
-c000000005291DECE0000000000001457
-t1385291470
-s5207
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.xib
-c00000000528E6C4B0000000000001759
-t1385065547
-s5977
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m
-c00000000528F33C60000000000002A3F
-t1385116614
-s10815
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m
-c00000000528F33C60000000000000865
-t1385116614
-s2149
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m
-c00000000528E71530000000000000C22
-t1385066835
-s3106
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m
-c00000000528E6C500000000000007C6C
-t1385065552
-s31852
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
-c000000005291D1230000000000002136
-t1385287971
-s8502
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/de.lproj/Localizable.strings
-c00000000528E6C4B00000000000004BF
-t1385065547
-s1215
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/en.lproj/Localizable.strings
-c00000000528E6C4B00000000000004AA
-t1385065547
-s1194
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/es.lproj/Localizable.strings
-c00000000528E6C4B00000000000004B7
-t1385065547
-s1207
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon-72.png
-c000000005271B00200000000000037E7
-t1383182338
-s14311
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon-72@2x.png
-c000000005271B002000000000000B52E
-t1383182338
-s46382
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon.png
-c000000005271B002000000000000242C
-t1383182338
-s9260
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon@2x.png
-c000000005271B0020000000000007861
-t1383182338
-s30817
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/se.lproj/Localizable.strings
-c00000000528E6C4B00000000000004AB
-t1385065547
-s1195
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-568h@2x~iphone.png
-c000000005291E0120000000000046475
-t1385291794
-s287861
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Landscape@2x~ipad.png
-c00000000528E6C4B0000000000012DF4
-t1385065547
-s77300
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Landscape~ipad.png
-c00000000528E6C4B0000000000008877
-t1385065547
-s34935
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Portrait@2x~ipad.png
-c00000000528E6C4B0000000000012B02
-t1385065547
-s76546
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Portrait~ipad.png
-c00000000528E6C4B00000000000085E6
-t1385065547
-s34278
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default@2x~iphone.png
-c000000005291DFE700000000000E93DA
-t1385291751
-s955354
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default~iphone.png
-c000000005291E0110000000000046475
-t1385291793
-s287861
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Info.plist
-c000000005295039C0000000000000888
-t1385497500
-s2184
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Prefix.pch
-c00000000528E6C4C00000000000003C5
-t1385065548
-s965
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/config.xml
-c00000000529503A600000000000007AC
-t1385497510
-s1964
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/main.m
-c00000000528E6C4C000000000000045C
-t1385065548
-s1116
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.o
-t1385497526
-s78740
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.o
-t1385497526
-s53516
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.o
-t1385497527
-s153232
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.o
-t1385497527
-s75332
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.o
-t1385497527
-s81164
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.o
-t1385497526
-s14500
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.o
-t1385497526
-s56348
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/Tranquilify.LinkFileList
-c00000000529503B300000000000004C4
-t1385497523
-s1220
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.o
-t1385497526
-s3124
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Script-304B58A110DAC018002A0835.sh
-c00000000529503B4000000000000002D
-t1385497524
-s45
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent
-t1385497527
-s428
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app
-t1385497527
-s816
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app.dSYM
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-568h@2x~iphone.png
-t1385497525
-s407949
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape@2x~ipad.png
-t1385497525
-s143186
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape~ipad.png
-t1385497524
-s65305
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait@2x~ipad.png
-t1385497525
-s136924
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait~ipad.png
-t1385497525
-s63460
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default@2x~iphone.png
-t1385497525
-s1420618
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default~iphone.png
-t1385497525
-s407949
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Info.plist
-t1385497524
-s1545
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/MainViewController.nib
-t1385497526
-s1332
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/PkgInfo
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/ResourceRules.plist
-t1385497524
-s150
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify
-t1385497527
-s371528
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/config.xml
-t1385497524
-s1964
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/de.lproj/Localizable.strings
-t1385497524
-s280
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/embedded.mobileprovision
-t1385497527
-s7431
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/en.lproj/Localizable.strings
-t1385497524
-s166
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/es.lproj/Localizable.strings
-t1385497524
-s334
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72.png
-t1385497524
-s15799
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72@2x.png
-t1385497525
-s55418
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon.png
-t1385497524
-s10514
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon@2x.png
-t1385497524
-s36160
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/se.lproj/Localizable.strings
-t1385497524
-s283
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a
-c00000000529503B200000000000E3BC0
-t1385497522
-s932800
-
-N/var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch.pch
-t1385289046
-s5280156
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6d71e1323b45b841^9baa1f343b45b841^---0#1#1#--18"Check dependencies36"6EA0D7DD-1B06-4188-A6F2-52EE7E3D0AB5-
-
-CCodeSign /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app
-s407190327.346737
-e407190330.851019
-r1
-xCodeSign
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"CodeSign build/device/Tranquilify.app37"CodeSign build/device/Tranquilify.app60e958373b45b841^d6e0d93a3b45b841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/0000000000000000^1060"CodeSign build/device/Tranquilify.app    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    Using code signing identity "iPhone Developer: Anna Pearce (XQ8RUFXV75)" and provisioning profile "Tranquilify (Development)" (146B4DF3-973C-4A17-B02E-6D50247BCF51)    codesign --force --sign 5A6F55D290DEBF1C6BE09AA65195D617B32F325C --resource-rules=/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/ResourceRules.plist --entitlements /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app36"5CC85BC0-EB91-469B-954F-E76B89C91619-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190326.816695
-e407190326.929181
-r1
-xCompileC
-xbuild/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.m203"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.o Tranquilify/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere128d1363b45b841^5a2bee363b45b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.m0000000000000000^3767"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.o Tranquilify/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/AppDelegate.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.o36"A51E2CA8-DE6E-4A61-8480-76DA400B53D7-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190326.847648
-e407190326.952497
-r1
-xCompileC
-xbuild/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m225"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.o Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9622d9363b45b841^8ffef3363b45b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m0000000000000000^3807"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.o Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.device/CDVDevice.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.o36"D351A305-F884-497B-87F7-2366574ABEB1-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190326.818341
-e407190327.133013
-r1
-xCompileC
-xbuild/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m222"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.o Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler49a0d1363b45b841^171022373b45b841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m0000000000000000^3799"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.o Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.media/CDVSound.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.o36"D42276F4-C949-496B-8632-8D1FFB3BA4F5-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190326.952965
-e407190327.088602
-r1
-xCompileC
-xbuild/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m243"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.o Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb420f4363b45b841^c0ae16373b45b841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m0000000000000000^3855"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.o Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.o36"1C291057-32F9-4CB8-B7C0-A93F7F0AC7EF-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190326.912564
-e407190327.075933
-r1
-xCompileC
-xbuild/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/CORDOVA/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/CORDOVA/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/CORDOVA/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/CORDOVA/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/CORDOVA/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/CORDOVA/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m240"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.o Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3bc2e9363b45b841^ac7013373b45b841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m0000000000000000^3849"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.o Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudio.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.o36"535876C6-A653-42FA-9131-7807C7EB8233-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190326.929638
-e407190326.991166
-r1
-xCompileC
-xbuild/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m250"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.o Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerbc20ee363b45b841^e0d6fd363b45b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m0000000000000000^3879"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.o Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Plugins/com.phonegap.LowLatencyAudio/LowLatencyAudioAsset.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.o36"BE53E1D4-D2B2-48EA-9270-813049B501A3-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190326.817025
-e407190326.912126
-r1
-xCompileC
-xbuild/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.m217"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.o Tranquilify/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera246d1363b45b841^b8cce9363b45b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.m0000000000000000^3809"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.o Tranquilify/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.o36"5F4D6489-715F-4BC0-9D49-0C5485033706-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190326.816357
-e407190326.847086
-r1
-xCompileC
-xbuild/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/main.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/main.m181"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.o Tranquilify/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9f1cd1363b45b841^5930d9363b45b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/main.m0000000000000000^3709"CompileC build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.o Tranquilify/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/main.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.o36"EABC82EF-AC81-4BBC-8664-E0F208B8F1E8-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCompileXIB /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.xib
-s407190324.760368
-e407190326.815327
-r1
-xCompileXIB
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.xib
-o2013-11-26 20:25:26.080 Interface Builder Cocoa Touch Tool[30341:303] CFPreferences: user home directory at file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compiling /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.xib53"CompileXIB Tranquilify/Classes/MainViewController.xib20cfc2343b45b841^84bad0363b45b841^-229"2013-11-26 20:25:26.080 Interface Builder Cocoa Touch Tool[30341:303] CFPreferences: user home directory at file:///Users/pete/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@108"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.xib0000000000000000^815"CompileXIB Tranquilify/Classes/MainViewController.xib    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/MainViewController.nib /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Classes/MainViewController.xib36"5F9CB183-A5E2-4B1A-9292-61A2162EA2E9-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-568h@2x~iphone.png Tranquilify/Resources/splash/Default-568h@2x~iphone.png
-s407190325.362328
-e407190325.533490
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-568h@2x~iphone.png
-xTranquilify/Resources/splash/Default-568h@2x~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CopyPNGFile build/device/Tranquilify.app/Default-568h@2x~iphone.png Tranquilify/Resources/splash/Default-568h@2x~iphone.png123"CopyPNGFile build/device/Tranquilify.app/Default-568h@2x~iphone.png Tranquilify/Resources/splash/Default-568h@2x~iphone.png11355d353b45b841^231689353b45b841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-568h@2x~iphone.png0000000000000000^753"CopyPNGFile build/device/Tranquilify.app/Default-568h@2x~iphone.png Tranquilify/Resources/splash/Default-568h@2x~iphone.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-568h@2x~iphone.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-568h@2x~iphone.png36"2525F76E-2882-4CF1-9ED7-16623F53CC8C-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape@2x~ipad.png Tranquilify/Resources/splash/Default-Landscape@2x~ipad.png
-s407190324.764288
-e407190325.359323
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape@2x~ipad.png
-xTranquilify/Resources/splash/Default-Landscape@2x~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"CopyPNGFile build/device/Tranquilify.app/Default-Landscape@2x~ipad.png Tranquilify/Resources/splash/Default-Landscape@2x~ipad.png129"CopyPNGFile build/device/Tranquilify.app/Default-Landscape@2x~ipad.png Tranquilify/Resources/splash/Default-Landscape@2x~ipad.pngd3bcc3343b45b841^51145c353b45b841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^765"CopyPNGFile build/device/Tranquilify.app/Default-Landscape@2x~ipad.png Tranquilify/Resources/splash/Default-Landscape@2x~ipad.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Landscape@2x~ipad.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape@2x~ipad.png36"BA2D894D-3ECA-4481-9638-A94C87647F82-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape~ipad.png Tranquilify/Resources/splash/Default-Landscape~ipad.png
-s407190324.765940
-e407190324.976961
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape~ipad.png
-xTranquilify/Resources/splash/Default-Landscape~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CopyPNGFile build/device/Tranquilify.app/Default-Landscape~ipad.png Tranquilify/Resources/splash/Default-Landscape~ipad.png123"CopyPNGFile build/device/Tranquilify.app/Default-Landscape~ipad.png Tranquilify/Resources/splash/Default-Landscape~ipad.png5a29c4343b45b841^6a6dfa343b45b841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Landscape~ipad.png0000000000000000^753"CopyPNGFile build/device/Tranquilify.app/Default-Landscape~ipad.png Tranquilify/Resources/splash/Default-Landscape~ipad.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Landscape~ipad.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Landscape~ipad.png36"92EFE5F0-9160-4837-90D9-094D9C76EF23-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait@2x~ipad.png Tranquilify/Resources/splash/Default-Portrait@2x~ipad.png
-s407190324.768739
-e407190325.362058
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait@2x~ipad.png
-xTranquilify/Resources/splash/Default-Portrait@2x~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"CopyPNGFile build/device/Tranquilify.app/Default-Portrait@2x~ipad.png Tranquilify/Resources/splash/Default-Portrait@2x~ipad.png127"CopyPNGFile build/device/Tranquilify.app/Default-Portrait@2x~ipad.png Tranquilify/Resources/splash/Default-Portrait@2x~ipad.png65e0c4343b45b841^64cd5c353b45b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^761"CopyPNGFile build/device/Tranquilify.app/Default-Portrait@2x~ipad.png Tranquilify/Resources/splash/Default-Portrait@2x~ipad.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Portrait@2x~ipad.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait@2x~ipad.png36"CCD73EEF-BD0C-4345-A627-87A794A36418-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait~ipad.png Tranquilify/Resources/splash/Default-Portrait~ipad.png
-s407190324.977319
-e407190325.161219
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait~ipad.png
-xTranquilify/Resources/splash/Default-Portrait~ipad.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CopyPNGFile build/device/Tranquilify.app/Default-Portrait~ipad.png Tranquilify/Resources/splash/Default-Portrait~ipad.png121"CopyPNGFile build/device/Tranquilify.app/Default-Portrait~ipad.png Tranquilify/Resources/splash/Default-Portrait~ipad.png8c4afa343b45b841^444c29353b45b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Portrait~ipad.png0000000000000000^749"CopyPNGFile build/device/Tranquilify.app/Default-Portrait~ipad.png Tranquilify/Resources/splash/Default-Portrait~ipad.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default-Portrait~ipad.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default-Portrait~ipad.png36"2C14D5E0-E967-4C8F-B97E-305726EA2549-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default@2x~iphone.png Tranquilify/Resources/splash/Default@2x~iphone.png
-s407190325.161868
-e407190325.660275
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default@2x~iphone.png
-xTranquilify/Resources/splash/Default@2x~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CopyPNGFile build/device/Tranquilify.app/Default@2x~iphone.png Tranquilify/Resources/splash/Default@2x~iphone.png113"CopyPNGFile build/device/Tranquilify.app/Default@2x~iphone.png Tranquilify/Resources/splash/Default@2x~iphone.png2b8829353b45b841^d40ca9353b45b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default@2x~iphone.png0000000000000000^733"CopyPNGFile build/device/Tranquilify.app/Default@2x~iphone.png Tranquilify/Resources/splash/Default@2x~iphone.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default@2x~iphone.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default@2x~iphone.png36"3EEDF5D7-85A0-49CF-A2AB-5DE03CD1702E-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default~iphone.png Tranquilify/Resources/splash/Default~iphone.png
-s407190325.360022
-e407190325.541528
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default~iphone.png
-xTranquilify/Resources/splash/Default~iphone.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"CopyPNGFile build/device/Tranquilify.app/Default~iphone.png Tranquilify/Resources/splash/Default~iphone.png107"CopyPNGFile build/device/Tranquilify.app/Default~iphone.png Tranquilify/Resources/splash/Default~iphone.png9a415c353b45b841^e9b88a353b45b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default~iphone.png0000000000000000^721"CopyPNGFile build/device/Tranquilify.app/Default~iphone.png Tranquilify/Resources/splash/Default~iphone.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/splash/Default~iphone.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Default~iphone.png36"AAD89427-A145-455F-BBEA-0BEC12A47D8E-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72.png Tranquilify/Resources/icons/icon-72.png
-s407190324.709891
-e407190324.761296
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72.png
-xTranquilify/Resources/icons/icon-72.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/Tranquilify.app/icon-72.png Tranquilify/Resources/icons/icon-72.png92"CopyPNGFile build/device/Tranquilify.app/icon-72.png Tranquilify/Resources/icons/icon-72.pngf2d2b5343b45b841^4c1ac3343b45b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon-72.png0000000000000000^691"CopyPNGFile build/device/Tranquilify.app/icon-72.png Tranquilify/Resources/icons/icon-72.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon-72.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72.png36"A51CCDF4-DE24-444C-BD13-55563701F9E1-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72@2x.png Tranquilify/Resources/icons/icon-72@2x.png
-s407190325.534130
-e407190325.580713
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72@2x.png
-xTranquilify/Resources/icons/icon-72@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/device/Tranquilify.app/icon-72@2x.png Tranquilify/Resources/icons/icon-72@2x.png98"CopyPNGFile build/device/Tranquilify.app/icon-72@2x.png Tranquilify/Resources/icons/icon-72@2x.png1c0889353b45b841^20b294353b45b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon-72@2x.png0000000000000000^703"CopyPNGFile build/device/Tranquilify.app/icon-72@2x.png Tranquilify/Resources/icons/icon-72@2x.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon-72@2x.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon-72@2x.png36"A7D74DC9-CA75-441C-89E8-4582D1A7B1EA-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon.png Tranquilify/Resources/icons/icon.png
-s407190324.710125
-e407190324.761526
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon.png
-xTranquilify/Resources/icons/icon.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/Tranquilify.app/icon.png Tranquilify/Resources/icons/icon.png86"CopyPNGFile build/device/Tranquilify.app/icon.png Tranquilify/Resources/icons/icon.pngdbdfb5343b45b841^8620c3343b45b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon.png0000000000000000^679"CopyPNGFile build/device/Tranquilify.app/icon.png Tranquilify/Resources/icons/icon.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon.png36"6A5710FD-0599-4196-A9F8-8FDD2781B59C-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyPNGFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon@2x.png Tranquilify/Resources/icons/icon@2x.png
-s407190324.710960
-e407190324.761869
-r1
-xCopyPNGFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon@2x.png
-xTranquilify/Resources/icons/icon@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/Tranquilify.app/icon@2x.png Tranquilify/Resources/icons/icon@2x.png92"CopyPNGFile build/device/Tranquilify.app/icon@2x.png Tranquilify/Resources/icons/icon@2x.png4c1bb6343b45b841^0e30c3343b45b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon@2x.png0000000000000000^691"CopyPNGFile build/device/Tranquilify.app/icon@2x.png Tranquilify/Resources/icons/icon@2x.png    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/icons/icon@2x.png /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/icon@2x.png36"60696980-ADE3-4172-AC41-3F8F0606E2B4-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyStringsFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/de.lproj/Localizable.strings Tranquilify/Resources/de.lproj/Localizable.strings
-s407190324.762986
-e407190324.765728
-r1
-xCopyStringsFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/de.lproj/Localizable.strings
-xTranquilify/Resources/de.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Tranquilify/Resources/de.lproj/Localizable.strings124"CopyStringsFile build/device/Tranquilify.app/de.lproj/Localizable.strings Tranquilify/Resources/de.lproj/Localizable.strings4279c3343b45b841^4c38c4343b45b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/de.lproj/Localizable.strings0000000000000000^654"CopyStringsFile build/device/Tranquilify.app/de.lproj/Localizable.strings Tranquilify/Resources/de.lproj/Localizable.strings    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/de.lproj -- Tranquilify/Resources/de.lproj/Localizable.strings36"B2203C3A-9024-4F32-A8FE-6403E6BCDD72-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyStringsFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/en.lproj/Localizable.strings Tranquilify/Resources/en.lproj/Localizable.strings
-s407190324.711459
-e407190324.738204
-r1
-xCopyStringsFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/en.lproj/Localizable.strings
-xTranquilify/Resources/en.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Tranquilify/Resources/en.lproj/Localizable.strings124"CopyStringsFile build/device/Tranquilify.app/en.lproj/Localizable.strings Tranquilify/Resources/en.lproj/Localizable.stringsc345b6343b45b841^2847bd343b45b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/en.lproj/Localizable.strings0000000000000000^654"CopyStringsFile build/device/Tranquilify.app/en.lproj/Localizable.strings Tranquilify/Resources/en.lproj/Localizable.strings    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/en.lproj -- Tranquilify/Resources/en.lproj/Localizable.strings36"28D1A939-9CA8-46A9-8F84-073C87D042E5-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyStringsFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/es.lproj/Localizable.strings Tranquilify/Resources/es.lproj/Localizable.strings
-s407190324.738533
-e407190324.760029
-r1
-xCopyStringsFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/es.lproj/Localizable.strings
-xTranquilify/Resources/es.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Tranquilify/Resources/es.lproj/Localizable.strings124"CopyStringsFile build/device/Tranquilify.app/es.lproj/Localizable.strings Tranquilify/Resources/es.lproj/Localizable.strings5b43bd343b45b841^0adcc2343b45b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/es.lproj/Localizable.strings0000000000000000^654"CopyStringsFile build/device/Tranquilify.app/es.lproj/Localizable.strings Tranquilify/Resources/es.lproj/Localizable.strings    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/es.lproj -- Tranquilify/Resources/es.lproj/Localizable.strings36"DBA7B9E6-332E-402A-A222-9840F23D4DAE-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCopyStringsFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/se.lproj/Localizable.strings Tranquilify/Resources/se.lproj/Localizable.strings
-s407190324.763328
-e407190324.767403
-r1
-xCopyStringsFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/se.lproj/Localizable.strings
-xTranquilify/Resources/se.lproj/Localizable.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Tranquilify/Resources/se.lproj/Localizable.strings124"CopyStringsFile build/device/Tranquilify.app/se.lproj/Localizable.strings Tranquilify/Resources/se.lproj/Localizable.strings187bc3343b45b841^a46dc4343b45b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Resources/se.lproj/Localizable.strings0000000000000000^654"CopyStringsFile build/device/Tranquilify.app/se.lproj/Localizable.strings Tranquilify/Resources/se.lproj/Localizable.strings    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/se.lproj -- Tranquilify/Resources/se.lproj/Localizable.strings36"A1C8A4AD-F165-4652-AB3D-EEC2C8D34891-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/Tranquilify.app/ResourceRules.plist
-s407190324.420124
-e407190324.467238
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-xbuild/device/Tranquilify.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/device/Tranquilify.app/ResourceRules.plist181"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/Tranquilify.app/ResourceRules.plist98a36b343b45b841^f59d77343b45b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/ResourceRules.plist003488edddffdf42^792"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/Tranquilify.app/ResourceRules.plist    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app36"AD54E2A9-3C6A-4128-9BE2-EC42640380EE-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CCpResource Tranquilify/config.xml build/device/Tranquilify.app/config.xml
-s407190324.709617
-e407190324.711323
-r1
-xCpResource
-xTranquilify/config.xml
-xbuild/device/Tranquilify.app/config.xml
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/device/Tranquilify.app/config.xml73"CpResource Tranquilify/config.xml build/device/Tranquilify.app/config.xml84bdb5343b45b841^9222b6343b45b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/config.xml003488edddffdf42^644"CpResource Tranquilify/config.xml build/device/Tranquilify.app/config.xml    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/config.xml /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app36"F9CF037E-BB75-4608-8F47-8226AD4E797B-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CGenerateDSYMFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app.dSYM /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify
-s407190327.245877
-e407190327.326769
-r1
-xGenerateDSYMFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app.dSYM
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generate /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app.dSYM91"GenerateDSYMFile build/device/Tranquilify.app.dSYM build/device/Tranquilify.app/Tranquilify35083f373b45b841^86af53373b45b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app.dSYM003488edddffdf42^676"GenerateDSYMFile build/device/Tranquilify.app.dSYM build/device/Tranquilify.app/Tranquilify    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app.dSYM36"4A7D173C-F7AA-42D3-B38E-05F7A776F291-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CLd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify normal armv7
-s407190327.134384
-e407190327.244653
-r1
-xLd
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify
-xnormal
-xarmv7
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/Tranquilify.LinkFileList
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/main.o
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/AppDelegate.o
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/MainViewController.o
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSound.o
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVDevice.o
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudio.o
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/LowLatencyAudioAsset.o
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/CDVSplashScreen.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify56"Ld build/device/Tranquilify.app/Tranquilify normal armv7d57b22373b45b841^6ea23e373b45b841^---0#0#1#--1742"Ld build/device/Tranquilify.app/Tranquilify normal armv7    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -filelist /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/Tranquilify.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AudioToolbox -framework AssetsLibrary /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/Tranquilify_dependency_info.dat -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Tranquilify36"9E6C6568-DDAD-46D7-80A5-B6B7FE2BD1FD-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CPhaseScriptExecution Copy\ www\ directory /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Script-304B58A110DAC018002A0835.sh
-s407190324.468713
-e407190324.709130
-r1
-xPhaseScriptExecution
-xCopy www directory
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Script-304B58A110DAC018002A0835.sh
-o
-oreal	0m0.219s
-ouser	0m0.074s
-osys	0m0.133s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'133"PhaseScriptExecution Copy\ www\ directory build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Script-304B58A110DAC018002A0835.sha2b778343b45b841^4c8cb5343b45b841^-42"real	0m0.219suser	0m0.074ssys	0m0.133s3(21%IDEActivityLogMessage2@14"real	0m0.219s-407190324#1#14#-0#-----2@14"user	0m0.074s-407190324#15#14#-0#-----2@13"sys	0m0.133s-407190324#29#13#-0#-----0#0#1#--22759"PhaseScriptExecution Copy\ www\ directory build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Script-304B58A110DAC018002A0835.sh    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER pete    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build    setenv BUILD_ROOT /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device    setenv CACHE_ROOT /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device    setenv CONFIGURATION_TEMP_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH Tranquilify.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Tranquilify.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Tranquilify.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Tranquilify.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Tranquilify.app/Executables    setenv EXECUTABLE_FOLDER_PATH Tranquilify.app    setenv EXECUTABLE_NAME Tranquilify    setenv EXECUTABLE_PATH Tranquilify.app/Tranquilify    setenv FILE_LIST /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Tranquilify.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Tranquilify.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Tranquilify/Tranquilify-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include \"/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/usr/local/lib/include\" \"/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/UninstalledProducts/include\" \"/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Tranquilify/Tranquilify-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Tranquilify.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Tranquilify.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Tranquilify.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER pete    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Tranquilify.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Tranquilify.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/Tranquilify_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal/armv7/Tranquilify.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Tranquilify.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13A603    setenv MAC_OS_X_VERSION_ACTUAL 1090    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0900    setenv MODULE_CACHE_DIR /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Objects-normal    setenv OBJROOT /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Tranquilify.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/PkgInfo    setenv PKGINFO_PATH Tranquilify.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Tranquilify.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Tranquilify.app/PrivateHeaders    setenv PRODUCT_NAME Tranquilify    setenv PRODUCT_SETTINGS_PATH /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Tranquilify    setenv PROJECT_DERIVED_FILE_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/DerivedSources    setenv PROJECT_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PROJECT_FILE_PATH /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify.xcodeproj    setenv PROJECT_NAME Tranquilify    setenv PROJECT_TEMP_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build    setenv PROJECT_TEMP_ROOT /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH Tranquilify.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Tranquilify.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Tranquilify.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Tranquilify.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv SRCROOT /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME Tranquilify    setenv TARGET_BUILD_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device    setenv TARGET_NAME Tranquilify    setenv TARGET_TEMP_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build    setenv TEMP_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build    setenv TEMP_FILES_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build    setenv TEMP_FILE_DIR /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build    setenv TEMP_ROOT /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Tranquilify.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER pete    setenv USER_APPS_DIR /Users/pete/Applications    setenv USER_LIBRARY_DIR /Users/pete/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Tranquilify.app/version.plist    setenv VERSION_INFO_BUILDER pete    setenv VERSION_INFO_FILE Tranquilify_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Tranquilify  PROJECT:Tranquilify-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Tranquilify.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH Tranquilify.app/XPCServices    setenv YACC yacc    setenv arch armv7    setenv variant normal    /bin/sh -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Script-304B58A110DAC018002A0835.sh36"240008C8-B196-4589-9805-48D220C27824-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CProcessInfoPlistFile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Info.plist /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Info.plist
-s407190324.124781
-e407190324.419368
-r1
-xProcessInfoPlistFile
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Info.plist
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Process /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Info.plist95"ProcessInfoPlistFile build/device/Tranquilify.app/Info.plist Tranquilify/Tranquilify-Info.plistd40d20343b45b841^13616b343b45b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Info.plist0000000000000000^899"ProcessInfoPlistFile build/device/Tranquilify.app/Info.plist Tranquilify/Tranquilify-Info.plist    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/Tranquilify/Tranquilify-Info.plist -genpkginfo /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/ResourceRules.plist -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/Info.plist36"4F714DE5-28B8-4606-8233-6C10A640FEF3-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CProcessPCH /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Tranquilify-Prefix-egwzfdxmhtonzjfrgktxnqhnnhge/Tranquilify-Prefix.pch.pch Tranquilify/Tranquilify-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent
-s407190327.342877
-e407190327.345070
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection219"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent219"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent37e057373b45b841^295f58373b45b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent003488edddffdf42^828"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/Tranquilify.build/Debug-iphoneos/Tranquilify.build/Tranquilify.xcent36"4F67B3AD-A416-4B77-88EE-0BED56BEE638-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CProcessProductPackaging /Users/pete/Library/MobileDevice/Provisioning\ Profiles/146B4DF3-973C-4A17-B02E-6D50247BCF51.mobileprovision /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/embedded.mobileprovision
-s407190327.327376
-e407190327.328928
-r1
-xProcessProductPackaging
-x/Users/pete/Library/MobileDevice/Provisioning Profiles/146B4DF3-973C-4A17-B02E-6D50247BCF51.mobileprovision
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection186"ProcessProductPackaging /Users/pete/Library/MobileDevice/Provisioning\ Profiles/146B4DF3-973C-4A17-B02E-6D50247BCF51.mobileprovision build/device/Tranquilify.app/embedded.mobileprovision186"ProcessProductPackaging /Users/pete/Library/MobileDevice/Provisioning\ Profiles/146B4DF3-973C-4A17-B02E-6D50247BCF51.mobileprovision build/device/Tranquilify.app/embedded.mobileprovision42e953373b45b841^b64a54373b45b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/embedded.mobileprovision003488edddffdf42^736"ProcessProductPackaging /Users/pete/Library/MobileDevice/Provisioning\ Profiles/146B4DF3-973C-4A17-B02E-6D50247BCF51.mobileprovision build/device/Tranquilify.app/embedded.mobileprovision    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Users/pete/Library/MobileDevice/Provisioning\ Profiles/146B4DF3-973C-4A17-B02E-6D50247BCF51.mobileprovision -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app/embedded.mobileprovision36"0663D6F0-1C51-4D86-BB6F-F186E89DB8F1-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-
-CTouch /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app
-s407190327.332409
-e407190327.341793
-r1
-xTouch
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app34"Touch build/device/Tranquilify.app254055373b45b841^bb8057373b45b841^---0#0#1#--433"Touch build/device/Tranquilify.app    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/Tranquilify.app36"C3CA3E84-AB38-4A68-8EEC-3399C929474A-
-bD78F3787-34C6-489A-9915-6FFE2975D018
-

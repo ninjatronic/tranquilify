@@ -1,1172 +1,0 @@
-TCordovaLib
-v6
-r1
-cCheck dependencies
-cCpHeader Classes/NSDictionary+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
-cCpHeader Classes/CDVInvokedUrlCommand.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-cCpHeader Classes/NSData+Base64.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h
-cCpHeader Classes/CDVPluginResult.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-cCpHeader Classes/CDVPlugin.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-cCpHeader Classes/CDVDebug.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.h
-cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-cCpHeader Classes/CDVWhitelist.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-cCpHeader Classes/CDVURLProtocol.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
-cCpHeader Classes/CDVViewController.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h
-cCpHeader Classes/CDVCommandDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-cCpHeader Classes/CDV.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h
-cCpHeader Classes/CDVAvailability.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-cCpHeader Classes/CDVLocalStorage.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
-cCpHeader Classes/UIDevice+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
-cCpHeader Classes/NSArray+Comparisons.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
-cCpHeader Classes/CDVCommandQueue.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-cCpHeader Classes/CDVCommandDelegateImpl.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-cCpHeader Classes/CDVShared.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVShared.h
-cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-cCpHeader Classes/CDVConfigParser.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
-cCpHeader Classes/CDVJSON.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h
-cCpHeader Classes/CDVWebViewDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
-cCpHeader Classes/CDVUserAgentUtil.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
-cCpHeader Classes/CDVTimer.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h
-cProcessPCH /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a normal armv7
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000525642EE0000000000000110
-t1381384942
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c0000000052827AEB000000000000036B
-t1384282859
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052827AEB00000000000001A0
-t1384282859
-s416
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDV.h
-c00000000528E6C4C0000000000000516
-t1385065548
-s1302
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-c00000000528E6C4C0000000000000C83
-t1385065548
-s3203
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-c00000000528E6C4C00000000000008BA
-t1385065548
-s2234
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-c00000000528E6C4C0000000000000473
-t1385065548
-s1139
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-c00000000528E6C4C000000000000126E
-t1385065548
-s4718
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-c00000000528E6C4C0000000000000501
-t1385065548
-s1281
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-c00000000528E6C4C000000000000158B
-t1385065548
-s5515
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-c00000000528E6C4C00000000000004CB
-t1385065548
-s1227
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-c00000000528E6C4C0000000000000EB2
-t1385065548
-s3762
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVDebug.h
-c00000000528E6C4C0000000000000401
-t1385065548
-s1025
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-c00000000528E6C4C00000000000007E6
-t1385065548
-s2022
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-c00000000528E6C4C0000000000000DDE
-t1385065548
-s3550
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h
-c00000000528E6C4C00000000000003DA
-t1385065548
-s986
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.m
-c00000000528E6C4C000000000000098E
-t1385065548
-s2446
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-c00000000528E6C4C00000000000006CF
-t1385065548
-s1743
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-c00000000528E6C4C0000000000004C7E
-t1385065548
-s19582
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-c00000000528E6C4C0000000000000892
-t1385065548
-s2194
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-c00000000528E6C4C00000000000016AE
-t1385065548
-s5806
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-c00000000528E6C4C0000000000000C13
-t1385065548
-s3091
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-c00000000528E6C4C0000000000001B29
-t1385065548
-s6953
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-c00000000528E6C4C0000000000000408
-t1385065548
-s1032
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.h
-c00000000528E6C4C00000000000003E6
-t1385065548
-s998
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.m
-c00000000528E6C4C00000000000006B6
-t1385065548
-s1718
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.h
-c00000000528E6C4C000000000000038D
-t1385065548
-s909
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.m
-c00000000528E6C4C0000000000000AA2
-t1385065548
-s2722
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-c00000000528E6C4C000000000000041C
-t1385065548
-s1052
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-c00000000528E6C4C0000000000002514
-t1385065548
-s9492
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-c00000000528E6C4C0000000000000421
-t1385065548
-s1057
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-c00000000528E6C4C00000000000012A2
-t1385065548
-s4770
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.h
-c00000000528E6C4C0000000000000ACC
-t1385065548
-s2764
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.m
-c00000000528E6C4C0000000000009F3C
-t1385065548
-s40764
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-c00000000528E6C4C00000000000005A2
-t1385065548
-s1442
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-c00000000528E6C4C00000000000037C6
-t1385065548
-s14278
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-c00000000528E6C4C00000000000004B4
-t1385065548
-s1204
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-c00000000528E6C4C00000000000027D3
-t1385065548
-s10195
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-c00000000528E6C4C0000000000000392
-t1385065548
-s914
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-c00000000528E6C4C00000000000004D8
-t1385065548
-s1240
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-c00000000528E6C4C000000000000037D
-t1385065548
-s893
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-c00000000528E6C4C00000000000022CC
-t1385065548
-s8908
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-c00000000528E6C4C00000000000005DA
-t1385065548
-s1498
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-c00000000528E6C4C0000000000001059
-t1385065548
-s4185
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-c00000000528E6C4C00000000000003A0
-t1385065548
-s928
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-c00000000528E6C4C0000000000000584
-t1385065548
-s1412
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-c00000000528E6C4C0000000000000476
-t1385065548
-s1142
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-c00000000528E6C4C0000000000000620
-t1385065548
-s1568
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-c00000000528E6C4C0000000000000346
-t1385065548
-s838
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
-t1385497522
-s63852
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
-t1385497522
-s60404
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
-t1385497522
-s29360
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
-t1385497520
-s18668
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
-t1385497522
-s11140
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
-t1385497521
-s112440
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
-t1385497521
-s59068
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
-t1385497521
-s37048
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
-t1385497522
-s9416
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
-t1385497522
-s23152
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
-t1385497521
-s72820
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
-t1385497522
-s54360
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
-t1385497522
-s201436
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
-t1385497522
-s74820
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
-t1385497521
-s44704
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList
-c00000000529503B00000000000000CDF
-t1385497520
-s3295
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
-t1385497521
-s7572
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
-t1385497520
-s10592
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
-t1385497520
-s17500
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
-t1385497520
-s7004
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
-t1385497521
-s9756
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVShared.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
-t2
-s0
-
-N/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a
-t2
-s0
-
-N/var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch.pch
-t1385065556
-s3145972
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7b2f56303b45b841^1173c1303b45b841^---0#1#1#--18"Check dependencies36"B1848CD5-1822-44DF-9561-A11A8083F803-
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190321.896154
-e407190322.626569
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m211"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler179ce5313b45b841^25ada0323b45b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3708"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o36"FD97D678-B485-425A-B2CB-A8E81C296945-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190321.751602
-e407190322.517412
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6090c0313b45b841^3a7684323b45b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3666"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o36"911D707A-E0EE-4FE6-BA1C-C38681ECB75D-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190321.988587
-e407190322.052063
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler7042fd313b45b841^0d550d323b45b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3666"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o36"22249525-7FCA-4CB4-8251-84458E12B74F-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190320.800483
-e407190320.979598
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m207"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6825cd303b45b841^e00ffb303b45b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3696"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o36"A6044E08-A650-4A13-A386-B4C15354A1BE-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190322.052406
-e407190322.116997
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.m181"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler588d0d323b45b841^3aaf1d323b45b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3618"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o36"F51620CC-BE19-4F09-8E97-B5F981E38919-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190321.105327
-e407190321.894525
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler431c1b313b45b841^eae8e4313b45b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3666"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o36"2860B282-D1A5-4554-9927-0368873A09D2-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190320.898764
-e407190321.619020
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.m185"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler003ce6303b45b841^747e9e313b45b841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3630"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o36"60604B9D-9B0B-492E-9B14-D1EE43A97AE3-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190320.806610
-e407190321.053707
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler94a5ce303b45b841^fa0a0e313b45b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3666"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o36"DCD96CB3-C378-4C7B-AB88-C3A56E415BE0-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190322.728766
-e407190322.833401
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.m185"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere7a9ba323b45b841^8159d5323b45b841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3630"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o36"CBD0CDA5-0CD1-4DAE-B376-858BEC409B22-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190322.626916
-e407190322.728385
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.m183"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0aa0a0323b45b841^ea76ba323b45b841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3624"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o36"2B28502E-D523-4F55-A2A3-0246F7DE6EC5-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190320.980024
-e407190321.707508
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m195"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4a07fb303b45b841^eb1eb5313b45b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3660"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o36"32DB1E07-C497-4F32-88C4-62970202E937-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190322.117314
-e407190322.730908
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m199"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler562c1e323b45b841^f241bb323b45b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3672"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o36"C77C2AF8-8DA1-4041-BB6B-404BE15C592C-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190321.054143
-e407190322.730290
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.m201"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4f030e313b45b841^6bf4ba323b45b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3678"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o36"8D655187-E7EE-4634-B4CD-AEC6C3171DB4-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190322.517795
-e407190322.834139
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m203"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera7b284323b45b841^b98ad5323b45b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3684"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o36"C1DA8954-F72D-4353-B746-BD9947B9BBBB-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190320.946728
-e407190321.103715
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.m191"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3485f2303b45b841^008d1a313b45b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3648"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o36"631CF57E-7383-43FB-938B-6139E3BB52BA-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190321.707885
-e407190321.750107
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m205"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler645cb5313b45b841^2a19c0313b45b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3690"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o36"CBEAA6CE-9CCA-423F-8FC1-E5EE8D62509F-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190320.800972
-e407190320.903032
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.m193"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3c33cd303b45b841^614fe7303b45b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3654"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o36"24F29C0A-2E0D-4FEF-B4D9-1DC9A64B568C-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190320.800066
-e407190320.895801
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m213"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere604cd303b45b841^4e61e5303b45b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3714"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o36"2928C416-A01D-41C5-B51A-281975C28BB6-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190320.904662
-e407190320.946367
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m225"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler62bbe7303b45b841^3ba6f2303b45b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3750"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o36"6D4FD27A-A699-4AD0-B270-1D2129E7BBF6-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407190321.619470
-e407190321.986892
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-d/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m205"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilered0c9f313b45b841^a4a7fc313b45b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3690"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -DDEBUG -include /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.d --serialize-diagnostics /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.dia -c /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o36"641BEBB2-17BE-49DF-8E34-4856BB7075ED-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDV.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h
-s407190320.777798
-e407190320.781225
-r1
-xCpHeader
-xClasses/CDV.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h116"CpHeader Classes/CDV.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h6a32c7303b45b841^e202c8303b45b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h003488edddffdf42^700"CpHeader Classes/CDV.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDV.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDV.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"3B49E439-02A2-4B1D-808B-6E0C7189FC32-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVAvailability.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-s407190320.778333
-e407190320.783875
-r1
-xCpHeader
-xClasses/CDVAvailability.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h140"CpHeader Classes/CDVAvailability.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h9df3c7303b45b841^5e85c8303b45b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h003488edddffdf42^736"CpHeader Classes/CDVAvailability.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVAvailability.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"859CE023-7B25-4322-AC0F-08289F3CB8E5-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVCommandDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-s407190320.774977
-e407190320.782325
-r1
-xCpHeader
-xClasses/CDVCommandDelegate.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h146"CpHeader Classes/CDVCommandDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.hd6c8c6303b45b841^de58c8303b45b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h003488edddffdf42^745"CpHeader Classes/CDVCommandDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"B3BFABC9-C8F4-4FBC-A35C-11991E76DB47-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVCommandDelegateImpl.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-s407190320.788419
-e407190320.792246
-r1
-xCpHeader
-xClasses/CDVCommandDelegateImpl.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h154"CpHeader Classes/CDVCommandDelegateImpl.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.ha454ca303b45b841^5ddcca303b45b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h003488edddffdf42^757"CpHeader Classes/CDVCommandDelegateImpl.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"2F6BEAD9-C283-43AB-91A1-C36FE318776A-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVCommandQueue.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-s407190320.786382
-e407190320.789635
-r1
-xCpHeader
-xClasses/CDVCommandQueue.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h140"CpHeader Classes/CDVCommandQueue.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h7b66c9303b45b841^730eca303b45b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h003488edddffdf42^736"CpHeader Classes/CDVCommandQueue.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"4B5579FE-10CA-4A4D-8ADB-00E93819173A-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVConfigParser.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
-s407190320.792720
-e407190320.796308
-r1
-xCpHeader
-xClasses/CDVConfigParser.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVConfigParser.h140"CpHeader Classes/CDVConfigParser.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVConfigParser.hdf32cb303b45b841^e718cc303b45b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVConfigParser.h003488edddffdf42^736"CpHeader Classes/CDVConfigParser.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVConfigParser.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"10FA7640-82ED-4F3C-BC6A-2A35AB9138CB-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVDebug.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.h
-s407190320.767774
-e407190320.768860
-r1
-xCpHeader
-xClasses/CDVDebug.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.h126"CpHeader Classes/CDVDebug.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.heca2c4303b45b841^e371c5303b45b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.h003488edddffdf42^715"CpHeader Classes/CDVDebug.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVDebug.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"7D28A9DD-8F1A-4E5F-B81B-72FBB04D155A-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVInvokedUrlCommand.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-s407190320.757705
-e407190320.764135
-r1
-xCpHeader
-xClasses/CDVInvokedUrlCommand.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h150"CpHeader Classes/CDVInvokedUrlCommand.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h020dc2303b45b841^d6fdc3303b45b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h003488edddffdf42^751"CpHeader Classes/CDVInvokedUrlCommand.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"E2101D55-EE42-4330-86AF-9CBEF79ED8C0-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVJSON.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h
-s407190320.793415
-e407190320.796952
-r1
-xCpHeader
-xClasses/CDVJSON.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h124"CpHeader Classes/CDVJSON.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.hfd2fcb303b45b841^11e1cb303b45b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h003488edddffdf42^712"CpHeader Classes/CDVJSON.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVJSON.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"DEED68CC-4B7A-475C-8143-54756674A4DC-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVLocalStorage.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
-s407190320.780395
-e407190320.784357
-r1
-xCpHeader
-xClasses/CDVLocalStorage.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h140"CpHeader Classes/CDVLocalStorage.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h30dac7303b45b841^3ee9c8303b45b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h003488edddffdf42^736"CpHeader Classes/CDVLocalStorage.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"551C5104-D37F-4563-A0A6-F5640C1C0F75-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVPlugin.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-s407190320.764374
-e407190320.768134
-r1
-xCpHeader
-xClasses/CDVPlugin.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h128"CpHeader Classes/CDVPlugin.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.hb1c4c3303b45b841^9bfec4303b45b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h003488edddffdf42^718"CpHeader Classes/CDVPlugin.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPlugin.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"5C10CA79-C770-476F-8DF8-28E6024D23E1-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVPluginResult.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-s407190320.759137
-e407190320.765107
-r1
-xCpHeader
-xClasses/CDVPluginResult.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h140"CpHeader Classes/CDVPluginResult.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h8672c2303b45b841^130bc4303b45b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h003488edddffdf42^736"CpHeader Classes/CDVPluginResult.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVPluginResult.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"C178C9A1-BB3E-48CB-8DC1-B3AED8A37B29-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-s407190320.791359
-e407190320.793864
-r1
-xCpHeader
-xClasses/CDVScreenOrientationDelegate.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h166"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h3db9ca303b45b841^6a4dcb303b45b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h003488edddffdf42^775"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"7DF1E879-EAC1-454D-9AD9-F0AAE8C5B9BC-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVShared.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVShared.h
-s407190320.789760
-e407190320.793005
-r1
-xCpHeader
-xClasses/CDVShared.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVShared.h128"CpHeader Classes/CDVShared.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVShared.h7843ca303b45b841^b805cb303b45b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVShared.h003488edddffdf42^718"CpHeader Classes/CDVShared.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVShared.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"FB333B44-3F00-4EA4-8374-DBB21350B39E-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVTimer.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h
-s407190320.797029
-e407190320.798516
-r1
-xCpHeader
-xClasses/CDVTimer.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h126"CpHeader Classes/CDVTimer.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h1d3bcc303b45b841^f4c3cc303b45b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h003488edddffdf42^715"CpHeader Classes/CDVTimer.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVTimer.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"0F01753B-71BC-4848-8024-FF53B671AAC3-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVURLProtocol.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
-s407190320.771699
-e407190320.777605
-r1
-xCpHeader
-xClasses/CDVURLProtocol.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h138"CpHeader Classes/CDVURLProtocol.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h5ff0c5303b45b841^36abc6303b45b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h003488edddffdf42^733"CpHeader Classes/CDVURLProtocol.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"EA210B00-9F46-425C-A3D5-7F0F82888E53-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVUserAgentUtil.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
-s407190320.794185
-e407190320.797231
-r1
-xCpHeader
-xClasses/CDVUserAgentUtil.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h142"CpHeader Classes/CDVUserAgentUtil.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h0071cb303b45b841^d1b0cc303b45b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h003488edddffdf42^739"CpHeader Classes/CDVUserAgentUtil.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"1C63B374-FD03-40D1-8E64-FA2FF4BBF3A3-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVViewController.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h
-s407190320.771734
-e407190320.774997
-r1
-xCpHeader
-xClasses/CDVViewController.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h144"CpHeader Classes/CDVViewController.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.hd2abc5303b45b841^986ec6303b45b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h003488edddffdf42^742"CpHeader Classes/CDVViewController.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVViewController.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"9E329A41-FA29-44FC-9833-A4B304F3C969-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVWebViewDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
-s407190320.794063
-e407190320.797230
-r1
-xCpHeader
-xClasses/CDVWebViewDelegate.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h146"CpHeader Classes/CDVWebViewDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.hd07fcb303b45b841^5f79cc303b45b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h003488edddffdf42^745"CpHeader Classes/CDVWebViewDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"A498CD2F-4912-407E-8630-46D764386614-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/CDVWhitelist.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-s407190320.770026
-e407190320.774719
-r1
-xCpHeader
-xClasses/CDVWhitelist.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h134"CpHeader Classes/CDVWhitelist.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h2843c5303b45b841^3f73c6303b45b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h003488edddffdf42^727"CpHeader Classes/CDVWhitelist.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/CDVWhitelist.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"1BCF239F-E077-4AC7-AB63-D3CD5AFF87CC-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/NSArray+Comparisons.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
-s407190320.784996
-e407190320.790648
-r1
-xCpHeader
-xClasses/NSArray+Comparisons.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h148"CpHeader Classes/NSArray+Comparisons.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h11c8c9303b45b841^446aca303b45b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h003488edddffdf42^748"CpHeader Classes/NSArray+Comparisons.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"7EC16CCA-DA6D-40A7-80C8-568BA1967506-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/NSData+Base64.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h
-s407190320.758572
-e407190320.764914
-r1
-xCpHeader
-xClasses/NSData+Base64.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h136"CpHeader Classes/NSData+Base64.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h5647c2303b45b841^c904c4303b45b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h003488edddffdf42^730"CpHeader Classes/NSData+Base64.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSData+Base64.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"1DCCE067-0541-48E9-9644-D66CBC9DABBE-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/NSDictionary+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
-s407190320.756430
-e407190320.763853
-r1
-xCpHeader
-xClasses/NSDictionary+Extensions.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h156"CpHeader Classes/NSDictionary+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.hebc8c1303b45b841^faf1c3303b45b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h00cc54324be7df42^760"CpHeader Classes/NSDictionary+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"1E6833E3-94E8-40BD-BEDA-590C36C5E6C1-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-s407190320.768054
-e407190320.776151
-r1
-xCpHeader
-xClasses/NSMutableArray+QueueAdditions.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h168"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.hdbdbc5303b45b841^397cc6303b45b841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h003488edddffdf42^778"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"BA8743D0-AA7D-4D74-8226-3562F34A8595-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CCpHeader Classes/UIDevice+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
-s407190320.782878
-e407190320.789400
-r1
-xCpHeader
-xClasses/UIDevice+Extensions.h
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h148"CpHeader Classes/UIDevice+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h4b05c9303b45b841^38dac9303b45b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h003488edddffdf42^748"CpHeader Classes/UIDevice+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/include/Cordova36"07200835-4DA1-4FEE-8D31-CC008D99459A-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CLibtool /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a normal armv7
-s407190322.835975
-e407190322.866625
-r1
-xLibtool
-x/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a
-xnormal
-xarmv7
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Libtool /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a normal armv7105"Libtool /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a normal armv7c11bd6323b45b841^1edcdd323b45b841^---0#0#1#--1024"Libtool /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a normal armv7    cd /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device -filelist /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList -o /Users/pete/ninjatronic/projects/tranquilify/platforms/ios/build/device/libCordova.a36"7E148018-11EF-4030-BDCC-AE568C732F92-
-bD3F73660-0AFF-40B2-89E9-AF66CD552EC0
-
-CProcessPCH /var/folders/4f/b5j5bj5j16g0xbkxkfd8n31h0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-evdbsouxzfzweodespabkzqtvttl/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
