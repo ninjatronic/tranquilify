@@ -1,0 +1,4 @@
+body:after {
+    content: url(../img/fire.jpg) url(../img/stream.jpg) url(../img/storm.jpg) url(../img/birdsong.jpg) url(../img/crickets.jpg) url(../img/shore.jpg);
+    display: none;
+}
