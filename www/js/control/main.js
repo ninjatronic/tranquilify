@@ -10,15 +10,6 @@
                 $scope.$state = $state;
 
                 /*
-                    THIS SECTION DISPLAYS MESSAGES ON THE FIRST RUN
-                 */
-
-                if($window.localStorage.getItem('firstrun')==null){
-                    $window.localStorage.setItem('firstrun','1')
-                    $window.alert('Swipe left and right to browse through sounds');
-                }
-
-                /*
                     THIS SECTION DEALS WITH THE WORK STATE OF THE APP
                  */
 
