@@ -35,11 +35,18 @@ a:active {
 }
 
 div.footer {
-    height: 66px;
-    margin-top: -66px;
+    height: 62px;
+    margin-top: -62px;
     padding-left: 22px;
     opacity: 0.7;
     color: #ffffff;
     letter-spacing: 4px;
     margin-right: -12px;
+}
+
+.circles {
+    letter-spacing: 3px;
+    color: #ffffff;
+    opacity: 0.8;
+    margin-top: 3px;
 }

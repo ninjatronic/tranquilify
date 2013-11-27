@@ -2,7 +2,7 @@
     <div class="flipsnap">
         <div class="pane" ng-repeat="sound in sounds" ng-class="sound.id">
             <div class="full-width full-height" ng-cloak>
-                <div class="overlay" style="height:376px">
+                <div class="overlay" style="height:368px">
                     <div style="height:59px">
                         <h1 class="text-center" ng-hide="soundChanging">
                             {{sound.title}}
@@ -27,6 +27,9 @@
                         {{quotes[quoteIdx].from}}
                     </h4>
                 </div>
+                <p class="circles text-center">
+                    <i class="fa" ng-repeat="soundcircle in sounds" ng-class="{'fa-circle': soundcircle == sound, 'fa-circle-o': soundcircle != sound}"></i>
+                </p>
             </div>
             <div class="footer text-right">
                 <h2>
