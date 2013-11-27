@@ -43,7 +43,9 @@
 
     <script type="text/javascript">
         document.addEventListener("deviceready", function() {
-            navigator.splashscreen.show();
+            if(navigator.splashscreen) {
+                navigator.splashscreen.show();
+            }
             angular.bootstrap(document, ['app']);
         }, false);
     </script>
