@@ -125,7 +125,7 @@
 
                 $scope.link = function(url) {
                     $window.open(url, '_system');
-                }
+                };
 
                 /*
                     THIS SECTION REMOVES THE COVER AFTER A REASONABLE PERIOD
